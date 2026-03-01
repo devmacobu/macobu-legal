@@ -146,6 +146,14 @@ Sobald Push-Benachrichtigungen aktiviert sind, nutzen wir Firebase Cloud Messagi
 - **Rechtsgrundlage:** Einwilligung (Art. 6 Abs. 1 lit. a DSGVO); Standardvertragsklauseln für Drittlandübermittlung
 - **Datenschutzerklärung:** https://firebase.google.com/support/privacy
 
+### 3.8 ISBNdb
+
+Für die Suche nach Buchmetadaten anhand von ISBN-Nummern nutzen wir ISBNdb. Anfragen werden ausschließlich über einen serverseitigen Proxy gestellt; es werden keine personenbezogenen Nutzerdaten übermittelt, sondern nur ISBN-Nummern bzw. Suchtitel.
+
+- **Anbieter:** ISBNdb, USA
+- **Verarbeitete Daten:** ISBN-Nummern und Suchtitel (ohne Nutzerbezug)
+- **Datenschutzerklärung:** https://isbndb.com/privacy-policy
+
 ---
 
 ## 4. Speicherdauer
