@@ -146,6 +146,14 @@ Once push notifications are activated, we use Firebase Cloud Messaging (FCM) for
 - **Legal basis:** Consent (Art. 6(1)(a) GDPR); Standard Contractual Clauses for third-country transfer
 - **Privacy policy:** https://firebase.google.com/support/privacy
 
+### 3.8 ISBNdb
+
+We use ISBNdb to look up book metadata by ISBN number. Requests are made exclusively via a server-side proxy; no personal user data is transmitted, only ISBN numbers or search titles.
+
+- **Provider:** ISBNdb, USA
+- **Data processed:** ISBN numbers and search titles (without user attribution)
+- **Privacy policy:** https://isbndb.com/privacy-policy
+
 ---
 
 ## 4. Retention Periods
