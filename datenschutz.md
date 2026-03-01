@@ -69,11 +69,11 @@ Macobu ermöglicht den direkten Tausch von Büchern, Mangas und Comics zwischen 
 
 - **Tausch-Anfragen und -Verlauf:** Wenn ein Tausch zwischen zwei Nutzern initiiert wird, werden die Angaben zum Tauschvorgang gespeichert (beteiligte Nutzer, getauschte Bücher, Status, Bestätigungen, Zeitstempel). Diese Daten sind ausschließlich für die beiden Tauschpartner sichtbar. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
 
-- **Lieferadresse:** Zur Durchführung eines Tauschs gibst du eine Lieferadresse an (Vollständiger Name, Straße und Hausnummer, Postleitzahl, Stadt, Land). Diese Adresse wird ausschließlich dem jeweiligen Tauschpartner für die Versandabwicklung zugänglich gemacht. **Sie wird nach Abschluss des Tauschs automatisch und dauerhaft anonymisiert — danach ist sie weder für uns noch für den Tauschpartner einsehbar.** Eine nachträgliche Änderung der eingetragenen Adresse ist technisch nicht möglich. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (notwendig zur Vertragserfüllung des Tauschdiensts).
+- **Lieferadresse:** Zur Durchführung eines Tauschs gibst du eine Lieferadresse an (Vollständiger Name, Straße und Hausnummer, Postleitzahl, Stadt, Land). Diese Adresse wird ausschließlich dem jeweiligen Tauschpartner für die Versandabwicklung zugänglich gemacht. **Sie wird nach Abschluss des Tauschs automatisch und dauerhaft gelöscht — danach ist sie weder für uns noch für den Tauschpartner einsehbar.** Eine nachträgliche Änderung der eingetragenen Adresse ist technisch nicht möglich. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (notwendig zur Vertragserfüllung des Tauschdiensts).
 
 - **Sendungsnummer:** Die von dir eingetragene Sendungsnummer wird dem Tauschpartner angezeigt und 90 Tage nach Tausch-Abschluss automatisch gelöscht. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
 
-- **Support-Zugriff während laufender Tausche:** Vor Abschluss eines laufenden Tauschs kann unser Support im Rahmen der Vertragserfüllung auf Lieferadressen und Sendungsnummern zugreifen, um bei Problemen zu helfen (z.B. falsche Adresse, fehlgeschlagener Versand). Nach Abschluss des Tauschs ist dies technisch nicht mehr möglich, da die Adressdaten automatisch anonymisiert werden. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
+- **Support-Zugriff während laufender Tausche:** Vor Abschluss eines laufenden Tauschs kann unser Support im Rahmen der Vertragserfüllung auf Lieferadressen und Sendungsnummern zugreifen, um bei Problemen zu helfen (z.B. falsche Adresse, fehlgeschlagener Versand). Nach Abschluss des Tauschs ist dies technisch nicht mehr möglich, da die Adressdaten automatisch gelöscht werden. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
 
 ### 2.6 Soziale Funktionen
 
@@ -166,7 +166,7 @@ Für die Suche nach Buchmetadaten anhand von ISBN-Nummern nutzen wir ISBNdb. Anf
 | Leseverlauf / Archiv | Dauerhaft bis zur Löschung des Accounts |
 | Swipe-Verhalten | Bis zur Löschung des Accounts |
 | Wunschliste | Bis zur Löschung des Accounts |
-| **Lieferadressen** | **Automatisch anonymisiert unmittelbar nach Tausch-Abschluss** |
+| **Lieferadressen** | **Automatisch und dauerhaft gelöscht unmittelbar nach Tausch-Abschluss** |
 | Sendungsnummern | 90 Tage nach Tausch-Abschluss, danach automatisch gelöscht |
 | Tausch-Verlauf (Status, Zeitstempel) | Bis zur Löschung des Accounts |
 | Follow-Beziehungen | Bis zur Löschung des Accounts |
@@ -225,7 +225,7 @@ Wir setzen technische und organisatorische Maßnahmen ein, um deine Daten vor un
 - Row-Level Security: Jeder Nutzer kann ausschließlich auf seine eigenen Daten zugreifen
 - API-Schlüssel werden ausschließlich serverseitig gespeichert und nie an die App übertragen
 - Passwörter werden als bcrypt-Hash gespeichert und sind für uns nicht einsehbar
-- Lieferadressen werden nach Tausch-Abschluss automatisch anonymisiert
+- Lieferadressen werden nach Tausch-Abschluss automatisch und dauerhaft gelöscht
 
 ---
 
