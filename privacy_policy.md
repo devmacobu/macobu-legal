@@ -69,11 +69,11 @@ Macobu enables the direct exchange of books, manga and comics between users (pee
 
 - **Trade requests and history:** When a trade is initiated between two users, the details of the trade are stored (users involved, books exchanged, status, confirmations, timestamps). This data is visible exclusively to the two trade partners. Legal basis: Art. 6(1)(b) GDPR.
 
-- **Delivery address:** To complete a trade you provide a delivery address (full name, street and house number, postcode, city, country). This address is made accessible exclusively to the respective trade partner for shipping purposes. **It is automatically and permanently anonymised after the trade is completed — after that it is no longer accessible to us or to the trade partner.** A subsequent change to the entered address is technically not possible. Legal basis: Art. 6(1)(b) GDPR (required for performance of the trade service).
+- **Delivery address:** To complete a trade you provide a delivery address (full name, street and house number, postcode, city, country). This address is made accessible exclusively to the respective trade partner for shipping purposes. **It is automatically and permanently deleted after the trade is completed — after that it is no longer accessible to us or to the trade partner.** A subsequent change to the entered address is technically not possible. Legal basis: Art. 6(1)(b) GDPR (required for performance of the trade service).
 
 - **Tracking number:** The tracking number you enter is displayed to the trade partner and automatically deleted 90 days after the trade is completed. Legal basis: Art. 6(1)(b) GDPR.
 
-- **Support access during active trades:** Prior to completion of an active trade, our support team may access delivery addresses and tracking numbers in the context of contract performance in order to assist with problems (e.g. incorrect address, failed shipment). After the trade is completed this is technically no longer possible, as the address data is automatically anonymised. Legal basis: Art. 6(1)(b) GDPR.
+- **Support access during active trades:** Prior to completion of an active trade, our support team may access delivery addresses and tracking numbers in the context of contract performance in order to assist with problems (e.g. incorrect address, failed shipment). After the trade is completed this is technically no longer possible, as the address data is automatically deleted. Legal basis: Art. 6(1)(b) GDPR.
 
 ### 2.6 Social Features
 
@@ -166,7 +166,7 @@ We use ISBNdb to look up book metadata by ISBN number. Requests are made exclusi
 | Reading history / Archive | Permanently until account deletion |
 | Swipe behaviour | Until account deletion |
 | Wish list | Until account deletion |
-| **Delivery addresses** | **Automatically anonymised immediately after trade completion** |
+| **Delivery addresses** | **Automatically and permanently deleted immediately after trade completion** |
 | Tracking numbers | 90 days after trade completion, then automatically deleted |
 | Trade history (status, timestamps) | Until account deletion |
 | Follow relationships | Until account deletion |
@@ -226,7 +226,7 @@ We implement technical and organisational measures to protect your data against 
 - Row-Level Security: each user can access exclusively their own data
 - API keys are stored server-side only and never transmitted to the app
 - Passwords are stored as bcrypt hashes and are not accessible to us
-- Delivery addresses are automatically anonymised after trade completion
+- Delivery addresses are automatically and permanently deleted after trade completion
 
 ---
 
