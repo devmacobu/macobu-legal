@@ -1,0 +1,249 @@
+# Datenschutzerklärung — Macobu
+
+**Verantwortlicher:**
+Alfred Schenkel
+Bogenstraße 30
+47799 Krefeld
+Deutschland
+E-Mail: support@macobu.de
+
+**Letzte Aktualisierung:** März 2026
+
+---
+
+## 1. Allgemeines
+
+Diese Datenschutzerklärung informiert dich gemäß Art. 13 und 14 DSGVO darüber, welche personenbezogenen Daten wir in der App Macobu erheben, zu welchen Zwecken wir sie verarbeiten und welche Rechte du hast.
+
+### Rechtsgrundlagen der Verarbeitung
+
+Wir verarbeiten personenbezogene Daten auf Basis folgender Rechtsgrundlagen:
+
+- **Art. 6 Abs. 1 lit. a DSGVO** – Einwilligung
+- **Art. 6 Abs. 1 lit. b DSGVO** – Vertragserfüllung (Bereitstellung der App-Dienste)
+- **Art. 6 Abs. 1 lit. c DSGVO** – Rechtliche Verpflichtung
+- **Art. 6 Abs. 1 lit. f DSGVO** – Berechtigte Interessen
+
+---
+
+## 2. Erhobene Daten und Verarbeitungszwecke
+
+### 2.1 Registrierung und Authentifizierung
+
+Bei der Registrierung erheben wir:
+
+- **E-Mail-Adresse:** Zur Identifikation, Anmeldung und für Passwort-Resets. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
+- **Passwort:** Wird ausschließlich als verschlüsselter Hash (bcrypt) gespeichert, nie im Klartext. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
+- **Einwilligungs-Zeitstempel:** Datum und Uhrzeit der Zustimmung zu dieser Datenschutzerklärung bei der Registrierung — als Nachweis der Einwilligung gemäß Art. 7 Abs. 1 DSGVO.
+
+### 2.2 Nutzerprofil
+
+Folgende Profildaten werden freiwillig von dir angegeben:
+
+- **Benutzername:** Pflichtangabe zur Identifikation in der Community; öffentlich sichtbar für angemeldete Nutzer.
+- **Anzeigename:** Optional; öffentlich sichtbar.
+- **Profilbild (Avatar):** Optional hochgeladenes Bild; öffentlich sichtbar.
+- **Biografie:** Optionaler Freitext (max. 500 Zeichen); öffentlich sichtbar.
+- **Bevorzugte Genres, Epochen und Medieninteressen:** Werden im Onboarding abgefragt und ausschließlich zur Personalisierung des Entdecken-Screens verwendet.
+- **Leseziel:** Optionales persönliches Jahresziel für gelesene Macobus; öffentlich sichtbar steuerbar über den Schalter „Für andere sichtbar".
+- **Jährliche Lesezahl:** Automatisch aus deiner Leseaktivität berechnete Statistik für das aktuelle Kalenderjahr; öffentlich sichtbar auf deinem Profil. Der Zähler wird zu Beginn jedes Jahres zurückgesetzt.
+
+Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO für funktional notwendige Felder; Art. 6 Abs. 1 lit. a DSGVO für optionale Felder wie Biografie und Avatar.
+
+### 2.3 Bibliothek und Leseaktivität
+
+- **Bücherliste mit Status:** Alle Macobus (Bücher, Manga, Comics) die du deiner Bibliothek hinzufügst, einschließlich Lesestatus (z.B. „Gelesen", „Möchte lesen"), Zustand und persönlicher Notizen. Diese Daten sind nur für dich sichtbar. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
+- **Persönliche Bewertungen:** Deine Einschätzungen zu Büchern in 6 Kategorien (Spannung, Action, Drama, Dunkelheit, Fantasy, Humor). Nur du siehst deine persönlichen Einzelbewertungen; anderen Nutzern werden ausschließlich anonymisierte Durchschnittswerte angezeigt. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
+- **Leseverlauf / Archiv:** Alle Macobus die du als „gelesen" markiert hast, werden dauerhaft in deinem Archiv gespeichert — auch wenn du das Buch später aus deiner Bibliothek entfernst oder es im Rahmen eines Tauschs weitergibst. Das Archiv bleibt bis zur Löschung deines Accounts bestehen. Die letzten drei gelesenen Macobus können optional für andere angemeldete Nutzer sichtbar gemacht werden (steuerbar über den Schalter „Für andere sichtbar" in deinem Profil). Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
+
+### 2.4 Entdecken und Wunschliste
+
+- **Swipe-Verhalten:** Wenn du im Entdecken-Screen Bücher überspringst oder merkst, wird diese Entscheidung dauerhaft gespeichert, um dir ein Buch nicht erneut vorzuschlagen und den Entdecken-Feed zu personalisieren. Diese Daten sind in deinem persönlichen Datenexport enthalten. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
+- **Wunschliste:** Bücher, die du dir merkst, werden in deiner Wunschliste gespeichert und sind nur für dich sichtbar. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
+
+### 2.5 Tauschbörse
+
+Macobu ermöglicht den direkten Tausch von Büchern, Mangas und Comics zwischen Nutzern (Peer-to-Peer). Im Rahmen dieser Funktion verarbeiten wir:
+
+- **Tauschsuche und Matching:** Wenn du für ein Buch auf deiner Wunschliste einen Tauschpartner suchst, werden deine Tauschpräferenzen (gewünschte Sprachen) und der Suchstatus gespeichert, bis ein Tausch abgeschlossen oder die Suche von dir deaktiviert wird. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
+
+- **Tausch-Anfragen und -Verlauf:** Wenn ein Tausch zwischen zwei Nutzern initiiert wird, werden die Angaben zum Tauschvorgang gespeichert (beteiligte Nutzer, getauschte Bücher, Status, Bestätigungen, Zeitstempel). Diese Daten sind ausschließlich für die beiden Tauschpartner sichtbar. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
+
+- **Lieferadresse:** Zur Durchführung eines Tauschs gibst du eine Lieferadresse an (Vollständiger Name, Straße und Hausnummer, Postleitzahl, Stadt, Land). Diese Adresse wird ausschließlich dem jeweiligen Tauschpartner für die Versandabwicklung zugänglich gemacht. **Sie wird nach Abschluss des Tauschs automatisch und dauerhaft anonymisiert — danach ist sie weder für uns noch für den Tauschpartner einsehbar.** Eine nachträgliche Änderung der eingetragenen Adresse ist technisch nicht möglich. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (notwendig zur Vertragserfüllung des Tauschdiensts).
+
+- **Sendungsnummer:** Die von dir eingetragene Sendungsnummer wird dem Tauschpartner angezeigt und 90 Tage nach Tausch-Abschluss automatisch gelöscht. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
+
+- **Support-Zugriff während laufender Tausche:** Vor Abschluss eines laufenden Tauschs kann unser Support im Rahmen der Vertragserfüllung auf Lieferadressen und Sendungsnummern zugreifen, um bei Problemen zu helfen (z.B. falsche Adresse, fehlgeschlagener Versand). Nach Abschluss des Tauschs ist dies technisch nicht mehr möglich, da die Adressdaten automatisch anonymisiert werden. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
+
+### 2.6 Soziale Funktionen
+
+- **Follower und Following:** Wenn du einem anderen Nutzer folgst, wird diese Verbindung gespeichert. Dein Follower- und Following-Zähler ist auf deinem öffentlichen Profil sichtbar. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
+
+### 2.7 Achievements und Badges
+
+- **Bewertungszähler und Abzeichen:** Die Anzahl deiner abgegebenen Buchbewertungen wird gespeichert und dient zur Freischaltung von Achievements-Abzeichen. Diese Zahl und ein von dir gewähltes, angepinntes Abzeichen sind auf deinem öffentlichen Profil sichtbar. Es findet kein externes Profiling statt — alle Berechnungen basieren ausschließlich auf deiner Aktivität innerhalb der App. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
+
+### 2.8 Push-Benachrichtigungen (geplant)
+
+Sobald Push-Benachrichtigungen aktiviert sind, wird ein Gerätetoken (FCM-Token) gespeichert, um dir Benachrichtigungen über Tauschaktivitäten zu senden (z.B. Tausch bestätigt, Paket versendet). Die Speicherung erfolgt nur mit deiner ausdrücklichen Einwilligung. Du kannst deine Einwilligung jederzeit widerrufen, indem du Push-Benachrichtigungen in den Geräteeinstellungen deaktivierst oder dich aus der App abmeldest. Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO.
+
+---
+
+## 3. Drittanbieter und Auftragsverarbeiter
+
+### 3.1 Supabase (Backend-Infrastruktur)
+
+Wir nutzen **Supabase, Inc.** als technischen Dienstleister für Datenbank, Authentifizierung, Dateispeicherung und serverseitige Funktionen.
+
+- **Verarbeitete Daten:** Alle in dieser Erklärung beschriebenen personenbezogenen Daten
+- **Verarbeitungsort:** Europäische Union (Region eu-central-1, Frankfurt am Main, Deutschland)
+- **Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO; Auftragsverarbeitungsvertrag (DPA) gemäß Art. 28 DSGVO; Standardvertragsklauseln (SCCs) für Drittlandübermittlungen gemäß Art. 46 Abs. 2 lit. c DSGVO
+- **Datenschutzerklärung:** https://supabase.com/privacy
+
+### 3.2 Google Books API
+
+Für die Suche nach Buchmetadaten nutzen wir die Google Books API. Anfragen werden ausschließlich über einen serverseitigen Proxy gestellt; es werden keine personenbezogenen Nutzerdaten übermittelt, sondern nur Suchanfragen (Titel, ISBN).
+
+- **Anbieter:** Google LLC, USA
+- **Rechtsgrundlage für Drittlandübermittlung:** Standardvertragsklauseln (SCCs)
+- **Datenschutzerklärung:** https://policies.google.com/privacy
+
+### 3.3 Open Library (Internet Archive)
+
+Für Buchmetadaten nutzen wir Open Library. Suchanfragen werden ohne Nutzer-Identifikation übermittelt.
+
+- **Anbieter:** Internet Archive, USA
+- **Datenschutzerklärung:** https://archive.org/about/terms.php
+
+### 3.4 MangaDex
+
+Für Manga-Metadaten nutzen wir die MangaDex-API. Suchanfragen werden ohne Nutzer-Identifikation übermittelt.
+
+- **Anbieter:** MangaDex
+- **Datenschutzerklärung:** https://mangadex.org/privacy
+
+### 3.5 ComicVine (Fandom)
+
+Für Comic-Metadaten nutzen wir die ComicVine-API. Anfragen werden über einen serverseitigen Proxy gestellt; es werden keine personenbezogenen Nutzerdaten übermittelt.
+
+- **Anbieter:** Fandom, Inc., USA
+- **Rechtsgrundlage für Drittlandübermittlung:** Standardvertragsklauseln (SCCs)
+- **Datenschutzerklärung:** https://www.fandom.com/privacy-policy
+
+### 3.6 HERE Geocoding (Adressvervollständigung)
+
+Für die Adresseingabe in der Tauschbörse nutzen wir die HERE Geocoding API. Die von dir eingetippten Adresstexte (z.B. Straßenname) werden über einen serverseitigen Proxy an HERE übermittelt, um Adressvorschläge zu erzeugen. Es wird kein Nutzerkonto bei HERE erstellt.
+
+- **Anbieter:** HERE Global B.V., Niederlande (EU)
+- **Verarbeitete Daten:** Eingetippte Adresstexte (ohne Nutzerbezug durch HERE)
+- **Datenschutzerklärung:** https://www.here.com/privacy
+
+### 3.7 Firebase Cloud Messaging (geplant)
+
+Sobald Push-Benachrichtigungen aktiviert sind, nutzen wir Firebase Cloud Messaging (FCM) für die Zustellung.
+
+- **Anbieter:** Google LLC, USA
+- **Rechtsgrundlage:** Einwilligung (Art. 6 Abs. 1 lit. a DSGVO); Standardvertragsklauseln für Drittlandübermittlung
+- **Datenschutzerklärung:** https://firebase.google.com/support/privacy
+
+---
+
+## 4. Speicherdauer
+
+| Datenkategorie | Speicherdauer |
+|---|---|
+| E-Mail-Adresse, Passwort-Hash | Bis zur Löschung des Accounts |
+| Profildaten (Name, Bio, Avatar, Präferenzen) | Bis zur Löschung des Accounts |
+| Bibliothek und Leseaktivität | Bis zur Löschung des Accounts |
+| Leseverlauf / Archiv | Dauerhaft bis zur Löschung des Accounts |
+| Swipe-Verhalten | Bis zur Löschung des Accounts |
+| Wunschliste | Bis zur Löschung des Accounts |
+| **Lieferadressen** | **Automatisch anonymisiert unmittelbar nach Tausch-Abschluss** |
+| Sendungsnummern | 90 Tage nach Tausch-Abschluss, danach automatisch gelöscht |
+| Tausch-Verlauf (Status, Zeitstempel) | Bis zur Löschung des Accounts |
+| Follow-Beziehungen | Bis zur Löschung des Accounts |
+| Push-Token (FCM) | Bis zur Abmeldung oder Löschung des Accounts |
+| Einwilligungs-Zeitstempel | Bis zur Löschung des Accounts |
+
+---
+
+## 5. Deine Rechte
+
+### 5.1 Auskunftsrecht (Art. 15 DSGVO)
+
+Du hast das Recht zu erfahren, welche personenbezogenen Daten wir über dich gespeichert haben. Du kannst einen vollständigen **Datenexport** direkt in der App erstellen: Profil → Einstellungen → „Meine Daten exportieren". Der Export enthält Profil, Bibliothek, Wunschliste, Archiv und Swipe-Verlauf als JSON-Datei.
+
+### 5.2 Berichtigungsrecht (Art. 16 DSGVO)
+
+Du kannst deine Profildaten (Anzeigename, Bio, Avatar, Lesepräferenzen) jederzeit in der App unter Profil → „Profil bearbeiten" aktualisieren.
+
+### 5.3 Löschungsrecht (Art. 17 DSGVO)
+
+Du kannst deinen Account und alle damit verbundenen Daten jederzeit vollständig und unwiderruflich löschen: Profil → Einstellungen → „Konto löschen". Die Löschung umfasst alle in dieser Erklärung beschriebenen Daten.
+
+### 5.4 Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)
+
+Du kannst die Verarbeitung bestimmter Daten einschränken, sofern die gesetzlichen Voraussetzungen vorliegen. Wende dich dazu an support@macobu.de.
+
+### 5.5 Recht auf Datenübertragbarkeit (Art. 20 DSGVO)
+
+Du kannst deine Daten in einem strukturierten, maschinenlesbaren Format (JSON) exportieren (siehe Abschnitt 5.1).
+
+### 5.6 Widerspruchsrecht (Art. 21 DSGVO)
+
+Du hast das Recht, der Verarbeitung deiner Daten zu widersprechen, soweit diese auf berechtigtem Interesse (Art. 6 Abs. 1 lit. f DSGVO) beruht. Da Macobu keine Direktwerbung betreibt und keine automatisierte Entscheidungsfindung mit Rechtswirkung einsetzt, ist dieses Recht nur eingeschränkt anwendbar.
+
+### 5.7 Widerrufsrecht (Art. 7 Abs. 3 DSGVO)
+
+Einwilligungen (z.B. für optionale Profilfelder oder Push-Benachrichtigungen) kannst du jederzeit mit Wirkung für die Zukunft widerrufen. Der Widerruf berührt nicht die Rechtmäßigkeit der bis dahin erfolgten Verarbeitung.
+
+### 5.8 Beschwerderecht (Art. 77 DSGVO)
+
+Du hast das Recht, eine Beschwerde bei der zuständigen Datenschutzaufsichtsbehörde einzureichen. Zuständig ist:
+
+**Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen (LDI NRW)**
+Kavalleriestraße 2–4
+40213 Düsseldorf
+https://www.ldi.nrw.de
+
+---
+
+## 6. Datensicherheit
+
+Wir setzen technische und organisatorische Maßnahmen ein, um deine Daten vor unbefugtem Zugriff, Verlust oder Missbrauch zu schützen:
+
+- Verschlüsselte Datenübertragung (HTTPS/TLS)
+- Verschlüsselte Datenspeicherung (AES-256, Supabase-Standard)
+- Row-Level Security: Jeder Nutzer kann ausschließlich auf seine eigenen Daten zugreifen
+- API-Schlüssel werden ausschließlich serverseitig gespeichert und nie an die App übertragen
+- Passwörter werden als bcrypt-Hash gespeichert und sind für uns nicht einsehbar
+- Lieferadressen werden nach Tausch-Abschluss automatisch anonymisiert
+
+---
+
+## 7. Automatisierte Entscheidungsfindung
+
+Es findet keine automatisierte Entscheidungsfindung mit Rechtswirkung im Sinne von Art. 22 DSGVO statt. Tier-Level und Badges werden automatisch aus deiner App-Aktivität berechnet, haben jedoch keine rechtlichen oder vergleichbar bedeutsamen Auswirkungen auf dich.
+
+---
+
+## 8. Kontakt
+
+Bei Fragen zum Datenschutz oder zur Ausübung deiner Rechte wende dich bitte an:
+
+Alfred Schenkel
+Bogenstraße 30
+47799 Krefeld
+E-Mail: support@macobu.de
+
+Anfragen werden kostenlos und innerhalb von einem Monat beantwortet (Art. 12 Abs. 3 DSGVO).
+
+---
+
+## 9. Änderungen dieser Datenschutzerklärung
+
+Wir behalten uns vor, diese Datenschutzerklärung bei wesentlichen Änderungen der App oder der Rechtslage zu aktualisieren. Das Datum der letzten Aktualisierung ist am Beginn dieses Dokuments vermerkt.
+
+---
+
+*Diese Datenschutzerklärung gilt für die mobile App Macobu (iOS und Android).*
