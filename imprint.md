@@ -42,17 +42,18 @@ Book metadata (titles, cover images, descriptions) is sourced from third-party p
 
 ---
 
-## Sicherheitslücken melden (Coordinated Disclosure)
+## Reporting Security Vulnerabilities (Coordinated Disclosure)
 
-Wenn Sie eine Sicherheitslücke in der Macobu-App oder unserer Infrastruktur entdecken, bitten wir um verantwortungsvolle Meldung:
+If you discover a security vulnerability in the Macobu app or our infrastructure, please report it responsibly:
 
-**Kontakt:** support@macobu.de  
-**Betreff:** `[Security]`
+**Contact:** support@macobu.de  
+**Subject:** `[Security]`
 
-Wir bestätigen den Eingang innerhalb von 5 Werktagen und informieren Sie über den Behebungsfortschritt.  
-Maschinenlesbare Kontaktinformationen: [/.well-known/security.txt](https://devmacobu.github.io/macobu-legal/.well-known/security.txt)
+We will acknowledge receipt within 5 business days and keep you informed of the remediation progress.  
+Machine-readable contact: [/.well-known/security.txt](https://devmacobu.github.io/macobu-legal/.well-known/security.txt)
 
 ---
 
 *As of: March 2026*
+
 
