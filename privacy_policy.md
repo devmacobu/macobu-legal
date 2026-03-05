@@ -128,8 +128,8 @@ When you tap "Local stores nearby" in the wish list, the app requests your GPS l
 - **Data processed:** GPS coordinates (latitude, longitude)
 - **Purpose:** Displaying local bookshops and speciality stores
 - **Legal basis:** Art. 6(1)(a) GDPR (consent via explicit in-app confirmation before the first location request)
-- **Storage:** Your location is **not stored** — it is used exclusively in memory to query the OpenStreetMap Overpass API, then immediately discarded.
-- **Disclosure:** Your coordinates are transmitted once to the OpenStreetMap Overpass API (via our server-side proxy) to search for nearby stores. The Overpass API does not receive a user ID or other personal data.
+- **Storage:** Your location is **not stored** — it is used exclusively in memory to query the Google Places API, then immediately discarded.
+- **Disclosure:** Your coordinates are transmitted once to the Google Places API (via our server-side proxy) to search for nearby stores. The Google Places API does not receive a user ID or other personal data.
 - **Refusal:** You may deny the permission or revoke it at any time in your device settings. All other app functions remain unaffected.
 
 ### 2.10 Push Notifications (planned)
@@ -188,15 +188,15 @@ For address input in the trade exchange we use the HERE Geocoding API. The addre
 - **Legal basis:** Art. 6(1)(b) GDPR (performance of contract — required for trade address entry)
 - **Privacy policy:** https://www.here.com/privacy
 
-### 3.7 OpenStreetMap / Overpass API (Local Bookstore Search)
+### 3.7 Google Places API (Local Bookstore Search)
 
-For the "Local stores nearby" feature in the wish list we use the Overpass API, which is based on the free map data of OpenStreetMap (OSM). Your GPS coordinates are transmitted once via our server-side proxy to the Overpass API to find nearby bookshops, manga stores, and comic shops.
+For the "Local stores nearby" feature in the wish list we use the Google Places API (Nearby Search). Your GPS coordinates are transmitted once via our server-side proxy to the Google Places API to find nearby bookshops, manga stores, and comic shops.
 
-- **Provider:** OpenStreetMap Foundation (OSMF), a non-profit organisation under English law; Overpass API operated by the OSM community (overpass-api.de)
-- **Data processed:** GPS coordinates (transient, not stored by us); the Overpass API processes the coordinates solely to execute the search query. No personal data such as user ID, name or e-mail address is transmitted. The map data itself is publicly available under the Open Database Licence (ODbL).
-- **Third-country transfer:** None — the Overpass API is operated within the EU.
+- **Provider:** Google LLC, USA
+- **Data processed:** GPS coordinates (transient, not stored by us); the Google Places API processes the coordinates solely to execute the search query. No personal data such as user ID, name or e-mail address is transmitted.
+- **Third-country transfer:** USA — Legal basis: Standard Contractual Clauses (SCCs) pursuant to Art. 46(2)(c) GDPR
 - **Legal basis:** Art. 6(1)(a) GDPR (consent via explicit in-app confirmation before the first location request)
-- **Privacy policy:** https://osmfoundation.org/wiki/Privacy_Policy
+- **Privacy policy:** https://policies.google.com/privacy
 
 ### 3.8 Firebase Cloud Messaging (planned)
 

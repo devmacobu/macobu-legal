@@ -129,8 +129,8 @@ Wenn du in der Wunschliste auf „Lokal in deiner Nähe" tippst, fragt die App e
 - **Verarbeitete Daten:** GPS-Koordinaten (Breitengrad, Längengrad)
 - **Zweck:** Anzeige lokaler Buchhandlungen und Fachgeschäfte
 - **Rechtsgrundlage:** Art. 6 Abs. 1 lit. a DSGVO (Einwilligung durch explizite Bestätigung in der App vor der ersten Standortabfrage)
-- **Speicherung:** Der Standort wird **nicht gespeichert** — er wird ausschließlich transient im Arbeitsspeicher verwendet, um die OpenStreetMap Overpass API anzufragen, und danach sofort verworfen.
-- **Weitergabe:** Deine Koordinaten werden einmalig an die OpenStreetMap Overpass API (über unseren serverseitigen Proxy) übermittelt, um Läden in deiner Nähe zu suchen. Die Overpass API erhält keine Nutzer-ID oder andere personenbezogene Daten.
+- **Speicherung:** Der Standort wird **nicht gespeichert** — er wird ausschließlich transient im Arbeitsspeicher verwendet, um die Google Places API anzufragen, und danach sofort verworfen.
+- **Weitergabe:** Deine Koordinaten werden einmalig an die Google Places API (über unseren serverseitigen Proxy) übermittelt, um Läden in deiner Nähe zu suchen. Die Google Places API erhält keine Nutzer-ID oder andere personenbezogene Daten.
 - **Ablehnung:** Du kannst die Berechtigung verweigern oder jederzeit in den Systemeinstellungen widerrufen. Die übrigen App-Funktionen sind davon nicht betroffen.
 
 ### 2.10 Push-Benachrichtigungen (geplant)
@@ -188,15 +188,15 @@ Für die Adresseingabe in der Tauschbörse nutzen wir die HERE Geocoding API. Di
 - **Verarbeitete Daten:** Eingetippte Adresstexte (ohne Nutzerbezug durch HERE)
 - **Datenschutzerklärung:** https://www.here.com/privacy
 
-### 3.7 OpenStreetMap / Overpass API (lokale Buchhandlungssuche)
+### 3.7 Google Places API (lokale Buchhandlungssuche)
 
-Für die Funktion „Lokal in deiner Nähe" in der Wunschliste nutzen wir die Overpass API, die auf den freien Kartendaten von OpenStreetMap (OSM) basiert. Dabei werden deine GPS-Koordinaten einmalig über unseren serverseitigen Proxy an die Overpass API übermittelt, um nahegelegene Buchhandlungen, Manga- und Comicläden zu finden.
+Für die Funktion „Lokal in deiner Nähe" in der Wunschliste nutzen wir die Google Places API (Nearby Search). Dabei werden deine GPS-Koordinaten einmalig über unseren serverseitigen Proxy an die Google Places API übermittelt, um nahegelegene Buchhandlungen, Manga- und Comicläden zu finden.
 
-- **Anbieter:** OpenStreetMap Foundation (OSMF), gemeinnützige Organisation nach englischem Recht; Overpass API betrieben durch die OSM-Community (overpass-api.de)
-- **Verarbeitete Daten:** GPS-Koordinaten (transient, nicht gespeichert von uns); die Overpass API verarbeitet die Koordinaten ausschließlich zur Durchführung der Suchanfrage. Es werden keine personenbezogenen Daten wie Nutzer-ID, Name oder E-Mail-Adresse übermittelt. Die Kartendaten selbst sind gemeinfrei (Open Database Licence, ODbL).
-- **Drittlandübermittlung:** Keine — die Overpass API wird innerhalb der EU betrieben.
+- **Anbieter:** Google LLC, USA
+- **Verarbeitete Daten:** GPS-Koordinaten (transient, nicht gespeichert von uns); die Google Places API verarbeitet die Koordinaten ausschließlich zur Durchführung der Suchanfrage. Es werden keine personenbezogenen Daten wie Nutzer-ID, Name oder E-Mail-Adresse übermittelt.
+- **Drittlandübermittlung:** USA — Rechtsgrundlage: Standardvertragsklauseln (SCCs) gemäß Art. 46 Abs. 2 lit. c DSGVO
 - **Rechtsgrundlage:** Art. 6 Abs. 1 lit. a DSGVO (Einwilligung durch explizite Bestätigung vor der ersten Standortabfrage)
-- **Datenschutzerklärung OpenStreetMap:** https://osmfoundation.org/wiki/Privacy_Policy
+- **Datenschutzerklärung Google:** https://policies.google.com/privacy
 
 ### 3.8 Firebase Cloud Messaging (geplant)
 

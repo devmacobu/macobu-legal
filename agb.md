@@ -295,7 +295,7 @@ Die Plattform setzt diese Voraussetzung technisch durch eine automatisierte Inha
 | ComicVine | Comic-Metadaten | Fandom, Inc., USA |
 | ISBNdb | ISBN-Metadaten | ISBNdb |
 | HERE Geocoding | Adressvervollständigung (Tauschbörse) | HERE Global B.V., Niederlande |
-| OpenStreetMap / Overpass API | Lokale Buchhandlungssuche | OpenStreetMap Foundation, UK (EU-Server) |
+| Google Places API | Lokale Buchhandlungssuche | Google LLC, USA (SCCs) |
 | Supabase | Backend-Infrastruktur | Supabase, Inc., USA (EU-Server) |
 | Firebase Cloud Messaging | Push-Benachrichtigungen (geplant) | Google LLC, USA |
 

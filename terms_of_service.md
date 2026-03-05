@@ -292,7 +292,7 @@ The platform enforces this requirement technically via an automated content chec
 | ComicVine | Comic metadata | Fandom, Inc., USA |
 | ISBNdb | ISBN metadata | ISBNdb |
 | HERE Geocoding | Address autocomplete (trade exchange) | HERE Global B.V., Netherlands |
-| OpenStreetMap / Overpass API | Local bookstore search | OpenStreetMap Foundation, UK (EU servers) |
+| Google Places API | Local bookstore search | Google LLC, USA (SCCs) |
 | Supabase | Backend infrastructure | Supabase, Inc., USA (EU servers) |
 | Firebase Cloud Messaging | Push notifications (planned) | Google LLC, USA |
 
