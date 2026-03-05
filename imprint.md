@@ -1,10 +1,18 @@
 # Legal Notice (Impressum)
 
-## Information pursuant to § 5 TMG (German Telemedia Act)
+## Information pursuant to § 5 DDG (German Digital Services Act / Digitale-Dienste-Gesetz)
 
+Alfred Schenkel und Jan-Hendrik Schoendorff GbR (civil law partnership under § 705 BGB)
+
+**Partners:**
 Alfred Schenkel
 Bogenstraße 30
 47799 Krefeld
+Germany
+
+Jan-Hendrik Schoendorff
+Hauptstraße 195
+47809 Krefeld
 Germany
 
 **E-Mail:** support@macobu.de
@@ -13,7 +21,8 @@ Germany
 
 ## Responsible for content pursuant to § 18 (2) MStV (German Interstate Media Treaty)
 
-Alfred Schenkel
+Alfred Schenkel and Jan-Hendrik Schoendorff
+(represented by Alfred Schenkel)
 Bogenstraße 30
 47799 Krefeld
 Germany
@@ -28,7 +37,7 @@ The **Macobu** app is distributed via the Apple App Store (operator: Apple Inc.,
 
 ## Liability for Content
 
-As a service provider, we are responsible for our own content in the app in accordance with general law pursuant to § 7 (1) TMG (German Telemedia Act). However, pursuant to §§ 8 to 10 TMG, we are not obligated as a service provider to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.
+As a service provider, we are responsible for our own content in the app in accordance with general law pursuant to § 7 (1) DDG (German Digital Services Act). However, pursuant to §§ 8 to 10 DDG, we are not obligated as a service provider to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity.
 
 Obligations to remove or block the use of information in accordance with general laws remain unaffected. Liability in this regard, however, is only possible from the point in time at which a concrete legal violation becomes known. Upon becoming aware of corresponding legal violations, we will remove this content immediately.
 
@@ -46,14 +55,12 @@ Book metadata (titles, cover images, descriptions) is sourced from third-party p
 
 If you discover a security vulnerability in the Macobu app or our infrastructure, please report it responsibly:
 
-**Contact:** support@macobu.de  
+**Contact:** support@macobu.de
 **Subject:** `[Security]`
 
-We will acknowledge receipt within 5 business days and keep you informed of the remediation progress.  
+We will acknowledge receipt within 5 business days and keep you informed of the remediation progress.
 Machine-readable contact: [/.well-known/security.txt](https://devmacobu.github.io/macobu-legal/.well-known/security.txt)
 
 ---
 
 *As of: March 2026*
-
-

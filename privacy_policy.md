@@ -1,10 +1,18 @@
 # Privacy Policy — Macobu
 
 **Controller:**
+Alfred Schenkel und Jan-Hendrik Schoendorff GbR (civil law partnership under § 705 BGB)
+
 Alfred Schenkel
 Bogenstraße 30
 47799 Krefeld
 Germany
+
+Jan-Hendrik Schoendorff
+Hauptstraße 195
+47809 Krefeld
+Germany
+
 E-Mail: support@macobu.de
 
 **Last updated:** March 2026
@@ -75,15 +83,56 @@ Macobu enables the direct exchange of books, manga and comics between users (pee
 
 - **Support access during active trades:** Prior to completion of an active trade, our support team may access delivery addresses and tracking numbers in the context of contract performance in order to assist with problems (e.g. incorrect address, failed shipment). After the trade is completed this is technically no longer possible, as the address data is automatically deleted. Legal basis: Art. 6(1)(b) GDPR.
 
-### 2.6 Social Features
+### 2.6 Messaging / Chat
+
+Macobu provides a private 1:1 chat between users who have initiated a trade together. The chat feature is **unlocked 12 hours after account creation** (a protective measure against misuse).
+
+**Data stored:**
+- **Message content:** The text of your sent messages (max. 2,000 characters per message), linked to your user ID, the timestamp, and the associated trade ID.
+- **Metadata:** Time of sending, time of reading (read receipt), whether a message was deleted for you or your conversation partner.
+
+**Retention periods:**
+- Chat messages are retained while the conversation is active.
+- After account deletion: message content is deleted after 30 days; metadata (timestamps, report IDs) is retained for 90 days for dispute resolution.
+- Reported chats are retained for at least 30 additional days — even if you delete your account — to fulfil legal obligations under the Digital Services Act (DSA).
+
+**Automated content moderation:**
+Every message is automatically screened **before being stored** for prohibited content (external links, phone numbers, email addresses, messenger invitations). Messages that violate the filter rules are **not** stored; an anonymised log of the violation (rule name, timestamp, user ID — no message content) is stored for abuse analysis.
+
+**Reports and manual review:**
+You can report individual messages (categories: fraud/scam, harassment/threats, explicit content, spam, other). Reported messages are reviewed by members of the provider's staff. The report is assigned a unique report ID, which is communicated to the reporting user for tracking purposes. Legal basis: Art. 6(1)(c) GDPR (legal obligation under DSA Art. 16) and Art. 6(1)(f) GDPR (legitimate interest in platform security).
+
+**Disclosure to authorities:**
+Where there is reasonable suspicion of criminal offences (in particular fraud, threats, distribution of illegal content), we are obliged or entitled under applicable law and upon judicial order to disclose chat data to competent law enforcement authorities. We do not voluntarily disclose data without a court order.
+
+**No end-to-end encryption:**
+Messages are transmitted in encrypted form (TLS/HTTPS) and stored encrypted (AES-256), but are **not** end-to-end encrypted. This is necessary to enable automated content moderation and manual review of reported content. This is communicated transparently here.
+
+**Blocking:**
+When you block a user, a record (your user ID, the blocked user's ID, timestamp) is stored. Blocks are not visible to the blocked user. Legal basis: Art. 6(1)(b) GDPR.
+
+Legal basis for the chat feature overall: Art. 6(1)(b) GDPR (performance of contract) for the core function; Art. 6(1)(c) GDPR for retention obligations under the DSA; Art. 6(1)(f) GDPR for security and moderation measures.
+
+### 2.7 Social Features
 
 - **Followers and following:** When you follow another user, this connection is stored. Your follower and following counts are visible on your public profile. Legal basis: Art. 6(1)(b) GDPR.
 
-### 2.7 Achievements and Badges
+### 2.8 Achievements and Badges
 
 - **Rating counter and badges:** The number of book ratings you have submitted is stored and used to unlock achievement badges. This count and a badge you have chosen to pin are visible on your public profile. No external profiling takes place — all calculations are based exclusively on your activity within the app. Legal basis: Art. 6(1)(b) GDPR.
 
-### 2.8 Push Notifications (planned)
+### 2.9 Location Data (Local Bookstore Search)
+
+When you tap "Local stores nearby" in the wish list, the app requests your GPS location once in order to find bookshops, manga stores, and comic shops near you and sort them by distance.
+
+- **Data processed:** GPS coordinates (latitude, longitude)
+- **Purpose:** Displaying local bookshops and speciality stores
+- **Legal basis:** Art. 6(1)(a) GDPR (consent via explicit in-app confirmation before the first location request)
+- **Storage:** Your location is **not stored** — it is used exclusively in memory to query the OpenStreetMap Overpass API, then immediately discarded.
+- **Disclosure:** Your coordinates are transmitted once to the OpenStreetMap Overpass API (via our server-side proxy) to search for nearby stores. The Overpass API does not receive a user ID or other personal data.
+- **Refusal:** You may deny the permission or revoke it at any time in your device settings. All other app functions remain unaffected.
+
+### 2.10 Push Notifications (planned)
 
 Once push notifications are activated, a device token (FCM token) will be stored in order to send you notifications about trade activity (e.g. trade confirmed, parcel shipped). Storage only takes place with your explicit consent. You can withdraw your consent at any time by disabling push notifications in your device settings or by logging out of the app. Legal basis: Art. 6(1)(a) GDPR.
 
@@ -136,9 +185,20 @@ For address input in the trade exchange we use the HERE Geocoding API. The addre
 
 - **Provider:** HERE Global B.V., Netherlands (EU)
 - **Data processed:** Typed address text (without user attribution by HERE)
+- **Legal basis:** Art. 6(1)(b) GDPR (performance of contract — required for trade address entry)
 - **Privacy policy:** https://www.here.com/privacy
 
-### 3.7 Firebase Cloud Messaging (planned)
+### 3.7 OpenStreetMap / Overpass API (Local Bookstore Search)
+
+For the "Local stores nearby" feature in the wish list we use the Overpass API, which is based on the free map data of OpenStreetMap (OSM). Your GPS coordinates are transmitted once via our server-side proxy to the Overpass API to find nearby bookshops, manga stores, and comic shops.
+
+- **Provider:** OpenStreetMap Foundation (OSMF), a non-profit organisation under English law; Overpass API operated by the OSM community (overpass-api.de)
+- **Data processed:** GPS coordinates (transient, not stored by us); the Overpass API processes the coordinates solely to execute the search query. No personal data such as user ID, name or e-mail address is transmitted. The map data itself is publicly available under the Open Database Licence (ODbL).
+- **Third-country transfer:** None — the Overpass API is operated within the EU.
+- **Legal basis:** Art. 6(1)(a) GDPR (consent via explicit in-app confirmation before the first location request)
+- **Privacy policy:** https://osmfoundation.org/wiki/Privacy_Policy
+
+### 3.8 Firebase Cloud Messaging (planned)
 
 Once push notifications are activated, we use Firebase Cloud Messaging (FCM) for delivery.
 
@@ -146,7 +206,7 @@ Once push notifications are activated, we use Firebase Cloud Messaging (FCM) for
 - **Legal basis:** Consent (Art. 6(1)(a) GDPR); Standard Contractual Clauses for third-country transfer
 - **Privacy policy:** https://firebase.google.com/support/privacy
 
-### 3.8 ISBNdb
+### 3.9 ISBNdb
 
 We use ISBNdb to look up book metadata by ISBN number. Requests are made exclusively via a server-side proxy; no personal user data is transmitted, only ISBN numbers or search titles.
 
@@ -166,6 +226,10 @@ We use ISBNdb to look up book metadata by ISBN number. Requests are made exclusi
 | Reading history / Archive | Permanently until account deletion |
 | Swipe behaviour | Until account deletion |
 | Wish list | Until account deletion |
+| **Chat messages (content)** | **30 days after account deletion; reported chats at least 30 days after the report** |
+| **Chat metadata (timestamps, report IDs)** | **90 days after account deletion** |
+| **Blocks** | Until the block is lifted or account deletion |
+| **Filter log (rule violation)** | 90 days |
 | **Delivery addresses** | **Automatically and permanently deleted immediately after trade completion** |
 | Tracking numbers | 90 days after trade completion, then automatically deleted |
 | Trade history (status, timestamps) | Until account deletion |
@@ -179,7 +243,16 @@ We use ISBNdb to look up book metadata by ISBN number. Requests are made exclusi
 
 ### 5.1 Right of Access (Art. 15 GDPR)
 
-You have the right to find out which personal data we have stored about you. You can create a complete **data export** directly in the app: Profile → Settings → "Export my data". The export contains your profile, library, wish list, archive and swipe history as a JSON file.
+You have the right to find out which personal data we have stored about you. You can create a complete **data export** directly in the app: Profile → Settings → "Export my data". The export contains the following data categories as a structured JSON file pursuant to Art. 20 GDPR (right to data portability):
+
+- Profile data (username, display name, biography, preferences)
+- Library (book list with status, notes, ratings)
+- Wish list
+- Archive (reading history)
+- Swipe history
+- Chat messages (content and timestamps of messages you sent)
+- Follow relationships (users you follow)
+- Trade history (status and timestamps of completed and ongoing trades)
 
 ### 5.2 Right to Rectification (Art. 16 GDPR)
 
@@ -240,10 +313,7 @@ No automated decision-making with legal effect within the meaning of Art. 22 GDP
 
 If you have questions about data protection or wish to exercise your rights, please contact:
 
-Alfred Schenkel
-Bogenstraße 30
-47799 Krefeld
-Germany
+Alfred Schenkel und Jan-Hendrik Schoendorff GbR
 E-Mail: support@macobu.de
 
 Requests are handled free of charge and within one month (Art. 12(3) GDPR).

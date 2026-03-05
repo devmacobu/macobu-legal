@@ -1,10 +1,18 @@
 # Allgemeine Geschäftsbedingungen (AGB) — Macobu
 
 **Anbieter:**
+Alfred Schenkel und Jan-Hendrik Schoendorff GbR
+
 Alfred Schenkel
 Bogenstraße 30
 47799 Krefeld
 Deutschland
+
+Jan-Hendrik Schoendorff
+Hauptstraße 195
+47809 Krefeld
+Deutschland
+
 E-Mail: support@macobu.de
 
 **Letzte Aktualisierung:** März 2026
@@ -21,6 +29,7 @@ E-Mail: support@macobu.de
 - Bewertung von Macobus auf einer numerischen Skala
 - Führen einer persönlichen Wunschliste
 - Peer-to-Peer-Tausch von Macobus zwischen Nutzern (Tauschbörse)
+- Privater Nachrichtendienst (Chat) zwischen Tauschpartnern
 - Soziale Funktionen (Profile, Follow-System, Achievements)
 
 (3) Diese AGB gelten ausschließlich gegenüber Verbrauchern im Sinne des § 13 BGB. Unternehmer im Sinne des § 14 BGB sind von der Nutzung ausgeschlossen.
@@ -86,49 +95,118 @@ E-Mail: support@macobu.de
 
 (2) Der Tauschvertrag kommt ausschließlich zwischen den beteiligten Nutzern zustande und richtet sich nach §§ 480, 433 ff. BGB. Der Anbieter übernimmt keine Haftung für die ordnungsgemäße Abwicklung des Tauschs.
 
-### 5.2 Voraussetzungen und Buchzustand
+### 5.2 Verbotene Inhalte
 
-(3) Für den Tausch gelten folgende Voraussetzungen:
+(3) Es ist untersagt, Medien anzubieten oder zu tauschen, deren Verbreitung in Deutschland verboten oder strafbar ist. Verboten sind insbesondere:
+
+1. Medien mit nationalsozialistischer Propaganda oder Kennzeichen verfassungswidriger Organisationen (§ 86, § 86a StGB)
+2. Medien mit volksverhetzenden oder zur Gewalt aufstachelnden Inhalten (§ 130 StGB)
+3. Medien, die nach dem Strafgesetzbuch beschlagnahmt oder eingezogen wurden
+4. Medien, die von der Bundeszentrale für Kinder- und Jugendmedienschutz (BzKJ, ehemals BPjM) indiziert sind — unabhängig davon, ob ein Privatverkauf/-tausch im Einzelfall gesetzlich erlaubt wäre
+5. Sonstige Medien, deren Besitz, Weitergabe oder Verbreitung nach deutschem Recht strafbar ist
+
+Die Plattform setzt diese Voraussetzung technisch durch eine automatisierte Inhaltsprüfung durch (Content Blocklist). Verstöße können zur sofortigen Sperrung des Accounts und zur Anzeige bei zuständigen Behörden führen.
+
+### 5.3 Voraussetzungen und Buchzustand
+
+(4) Für den Tausch gelten folgende weitere Voraussetzungen:
 
 1. Nur Macobus aus dem eigenen Bestand dürfen zum Tausch angeboten werden
 2. Angebotene Macobus müssen legal erworben worden sein — illegale Kopien oder Raubkopien sind verboten
-3. Der tatsächliche Zustand des Macobu muss dem in der App hinterlegten Zustand entsprechen
-4. Nur vollständige Exemplare dürfen angeboten werden (keine fehlenden Seiten, Bände etc.)
+3. Macobus dürfen zum Tausch angeboten werden, wenn sie sich in einem **vollständigen und mindestens allgemein gebräuchlichen gebrauchten Zustand** befinden. Das bedeutet: alle Seiten und Bände vorhanden, Inhalt lesbar, keine starken Beschädigungen (Wasserschäden, fehlende Kapitel, zerstörter Einband). Normale Gebrauchsspuren (Knicke, leichte Vergilbung, Leseknicke) sind zulässig, sofern sie dem in der App angegebenen Zustand entsprechen.
+4. Der tatsächliche Zustand des Macobu muss dem in der App hinterlegten Zustand entsprechen. Im Zweifelsfall hat der niedrigere tatsächliche Zustand Vorrang.
 
-(4) Weicht der tatsächliche Zustand erheblich vom angegebenen Zustand ab, hat der empfangende Nutzer das Recht, den Schaden direkt gegenüber dem einsendenden Nutzer geltend zu machen. Ansprüche richten sich nach §§ 480, 434 ff. BGB (Gewährleistungsrecht). Der Anbieter ist nicht Anspruchsgegner.
+(5) Weicht der tatsächliche Zustand erheblich vom angegebenen Zustand ab oder entspricht er nicht dem Mindeststandard gemäß Nr. 3, hat der empfangende Nutzer das Recht, den Schaden direkt gegenüber dem einsendenden Nutzer geltend zu machen. Ansprüche richten sich nach §§ 480, 434 ff. BGB (Gewährleistungsrecht). Der Anbieter ist nicht Anspruchsgegner.
 
-### 5.3 Versand und Risiko
+### 5.4 Versand und Risiko
 
-(5) Der Versand erfolgt auf Kosten und Risiko des jeweiligen Absenders. Der Anbieter übernimmt keine Haftung für:
+(6) Der Versand erfolgt auf Kosten und Risiko des jeweiligen Absenders. Der Anbieter übernimmt keine Haftung für:
 - Verlust oder Beschädigung von Sendungen während des Transports
 - Verzögerungen durch Versanddienstleister
 - Fehlerhafte oder unleserliche Adressangaben des Empfängers
 
-(6) Die Wahl des Versanddienstleisters liegt im Ermessen des Nutzers. Es wird empfohlen, Pakete mit Sendungsverfolgung und ggf. Versicherung zu versenden.
+(7) Die Wahl des Versanddienstleisters liegt im Ermessen des Nutzers. Es wird empfohlen, Pakete mit Sendungsverfolgung und ggf. Versicherung zu versenden.
 
-### 5.4 Lieferadresse
+### 5.5 Lieferadresse
 
-(7) Die vom Nutzer eingetragene Lieferadresse wird ausschließlich dem jeweiligen Tauschpartner für die Versandabwicklung zugänglich gemacht. Eine nachträgliche Änderung der Adresse nach deren Übermittlung ist technisch nicht möglich. Der Nutzer ist für die Richtigkeit der angegebenen Adresse verantwortlich.
+(8) Die vom Nutzer eingetragene Lieferadresse wird ausschließlich dem jeweiligen Tauschpartner für die Versandabwicklung zugänglich gemacht. Eine nachträgliche Änderung der Adresse nach deren Übermittlung ist technisch nicht möglich. Der Nutzer ist für die Richtigkeit der angegebenen Adresse verantwortlich.
 
-(8) Nach Abschluss des Tauschs wird die Lieferadresse automatisch und dauerhaft anonymisiert. Weitere Einzelheiten sind der Datenschutzerklärung zu entnehmen.
+(9) Nach Abschluss des Tauschs wird die Lieferadresse automatisch und dauerhaft anonymisiert. Weitere Einzelheiten sind der Datenschutzerklärung zu entnehmen.
 
-### 5.5 Sendungsnummer
+### 5.6 Sendungsnummer
 
-(9) Mit Eingabe der Sendungsnummer und deren Übermittlung an den Tauschpartner gilt der Versand als verbindlich bestätigt. Eine Stornierung des Tauschs ist ab diesem Zeitpunkt nicht mehr möglich.
+(10) Mit Eingabe der Sendungsnummer und deren Übermittlung an den Tauschpartner gilt der Versand als verbindlich bestätigt. Eine Stornierung des Tauschs ist ab diesem Zeitpunkt nicht mehr möglich.
 
-### 5.6 Abbruch und Stornierung
+### 5.7 Abbruch und Stornierung
 
-(10) Ein Tausch kann vom Nutzer bis zur Eingabe der Sendungsnummer abgebrochen werden. Nach Eingabe der Sendungsnummer ist ein Abbruch ausgeschlossen.
+(11) Ein Tausch kann vom Nutzer bis zur Eingabe der Sendungsnummer abgebrochen werden. Nach Eingabe der Sendungsnummer ist ein Abbruch ausgeschlossen.
 
-(11) Ein Rücktrittsrecht im Sinne des Fernabsatzrechts (§§ 312b ff. BGB) besteht nicht, da es sich um einen Tausch zwischen Privatpersonen handelt und der Anbieter nicht Vertragspartei ist.
+(12) Ein Rücktrittsrecht im Sinne des Fernabsatzrechts (§§ 312b ff. BGB) besteht nicht, da es sich um einen Tausch zwischen Privatpersonen handelt und der Anbieter nicht Vertragspartei ist.
 
-### 5.7 Geografische Einschränkungen
+### 5.8 Geografische Einschränkungen
 
-(12) Der Tausch ist grundsätzlich weltweit möglich. Der Anbieter empfiehlt jedoch aufgrund der erhöhten Versandkosten und -risiken, Tausche auf den deutschsprachigen Raum (Deutschland, Österreich, Schweiz) zu beschränken. Der Anbieter übernimmt keine Haftung für zollrechtliche Konsequenzen bei internationalen Sendungen.
+(13) Der Tausch ist grundsätzlich weltweit möglich. Der Anbieter empfiehlt jedoch aufgrund der erhöhten Versandkosten und -risiken, Tausche auf den deutschsprachigen Raum (Deutschland, Österreich, Schweiz) zu beschränken. Der Anbieter übernimmt keine Haftung für zollrechtliche Konsequenzen bei internationalen Sendungen.
 
 ---
 
-## § 6 Bewertungen und Community-Ratings
+## § 6 Nachrichten-Funktion (Chat)
+
+### 6.1 Allgemeines
+
+(1) Macobu stellt einen privaten 1:1-Nachrichtendienst (nachfolgend „Chat") bereit, der ausschließlich zwischen Nutzern mit einer gemeinsamen Tauschanfrage genutzt werden kann. Der Chat ist ein technisches Hilfsmittel zur Koordination des Tauschs.
+
+(2) Die Chatfunktion sowie die Tauschfunktion werden **12 Stunden nach Kontoerstellung** freigeschaltet. Diese Frist dient dem Schutz der Plattform und ihrer Nutzer vor Missbrauch.
+
+(3) Nachrichten dürfen maximal **2.000 Zeichen** lang sein.
+
+### 6.2 Verbotene Inhalte im Chat
+
+(4) Im Chat ist es dem Nutzer untersagt, folgende Inhalte zu versenden:
+
+1. Externe Links (HTTP/HTTPS-Links, www-Adressen, Domains jeglicher Art)
+2. Telefonnummern jeglichen Formats
+3. E-Mail-Adressen
+4. Einladungen zu externen Messenger-Diensten (WhatsApp, Telegram, Signal etc.)
+5. Beleidigende, bedrohende, diskriminierende oder rechtswidrige Inhalte
+6. Inhalte, die gegen § 4 dieser AGB verstoßen
+
+(5) Verstöße gegen Abs. 4 Nrn. 1–4 werden automatisch erkannt und führen zur sofortigen Blockierung der Nachricht (Nachricht wird nicht übermittelt oder gespeichert). Wiederholte Verstöße können zu einer temporären oder permanenten Sperrung des Accounts führen.
+
+### 6.3 Automatisierte Inhaltsmoderation
+
+(6) Jede versendete Nachricht wird vor der Speicherung automatisiert auf unerlaubte Inhalte geprüft (Filterregeln gemäß Abs. 4 Nrn. 1–4). Diese Prüfung erfolgt in Echtzeit. Filterregeln können vom Anbieter ohne vorherige Ankündigung angepasst werden, sofern dies zur Sicherheit der Plattform erforderlich ist.
+
+(7) Nachrichten werden **nicht** Ende-zu-Ende-verschlüsselt, damit die in Abs. 6 beschriebene Inhaltsmoderation sowie die manuelle Prüfung gemeldeter Nachrichten (§ 6.5) möglich ist.
+
+### 6.4 Rate-Limiting
+
+(8) Pro Nutzer dürfen maximal **60 Nachrichten pro Stunde** versendet werden. Bei Überschreitung wird der Nutzer informiert; die Nachricht wird nicht versendet. Bei wiederholten Verstößen kann eine temporäre Sperrung der Chatfunktion erfolgen (1 Stunde / 24 Stunden / 7 Tage).
+
+### 6.5 Meldepflicht und DSA-Konformität
+
+(9) Jeder Nutzer kann einzelne Nachrichten über die Meldefunktion (Long-Press auf die Nachricht) dem Anbieter melden. Meldekategorien: Betrug/Scam, Belästigung/Bedrohung, Explizite/anstößige Inhalte, Spam, Sonstiges.
+
+(10) Gemäß Art. 16 der Verordnung (EU) 2022/2065 (Digital Services Act, DSA) wird dem meldenden Nutzer eine Meldungs-ID zur Rückverfolgung übermittelt. Der Anbieter prüft die Meldung unverzüglich, spätestens innerhalb von 24 Stunden.
+
+(11) Bei begründeter Meldung kann der Anbieter folgende Maßnahmen ergreifen:
+1. Einzelne Nachricht löschen
+2. Den gemeldeten Nutzer verwarnen
+3. Den Chat einfrieren (nur lesbar, keine neuen Nachrichten)
+4. Den Account des gemeldeten Nutzers temporär oder dauerhaft sperren
+
+### 6.6 Blockierungsfunktion
+
+(12) Jeder Nutzer kann andere Nutzer blockieren. Nach einer Blockierung ist kein Chat, kein Tausch und kein Auffinden des blockierten Nutzers mehr möglich. Die Blockierung ist für den blockierten Nutzer nicht sichtbar. Blockierungen können vom blockierenden Nutzer jederzeit aufgehoben werden.
+
+### 6.7 Soft-Delete und Datenspeicherung
+
+(13) Nutzer können einzelne Nachrichten für sich selbst ausblenden (Soft-Delete). Der Originalinhalt bleibt aus rechtlichen Gründen (Streitfälle, Moderation, DSA-Compliance) in der Datenbank erhalten, ist jedoch für den Nutzer nicht mehr sichtbar.
+
+(14) Weitere Informationen zur Speicherdauer und Datenlöschung sind der Datenschutzerklärung zu entnehmen (§ 14 dieser AGB).
+
+---
+
+## § 6a Bewertungen und Community-Ratings
 
 (1) Bewertungen können ausschließlich für Macobus abgegeben werden, die sich in der eigenen Bibliothek des Nutzers befinden. Bewertungen sind numerisch (je 0–10 in 6 Kategorien) und enthalten keinen Freitext.
 
@@ -170,7 +248,9 @@ E-Mail: support@macobu.de
 4. Der Verdacht auf missbräuchliche Nutzung oder betrügerisches Verhalten besteht
 5. Ein laufendes Tauschverfahren durch den Nutzer vorsätzlich sabotiert wird
 
-(2) Bei leichten Verstößen erfolgt in der Regel eine vorherige Abmahnung per E-Mail. Bei schwerwiegenden Verstößen (insbesondere Betrug, Datenmissbrauch, Sicherheitsangriffe) ist eine sofortige Sperrung ohne Vorwarnung zulässig.
+(2) Bei leichten Verstößen erfolgt in der Regel eine vorherige Abmahnung per E-Mail oder In-App-Nachricht. Bei schwerwiegenden Verstößen (insbesondere Betrug, Datenmissbrauch, Bedrohung, Sicherheitsangriffe, Verstoß gegen § 6.2 Nr. 5 dieser AGB) ist eine sofortige Sperrung ohne Vorwarnung zulässig.
+
+(2a) Temporäre Sperren der Chat-Funktion (1 Stunde / 24 Stunden / 7 Tage) können ohne vorherige Abmahnung bei Verstößen gegen § 6 verhängt werden. Permanente Account-Sperren bedürfen in der Regel einer vorherigen Abmahnung, außer bei schwerwiegenden Verstößen gemäß Abs. 2.
 
 (3) Im Falle einer berechtigten Sperrung hat der Nutzer keinen Anspruch auf Wiederherstellung des Accounts oder der gespeicherten Daten.
 
@@ -214,7 +294,8 @@ E-Mail: support@macobu.de
 | MangaDex | Manga-Metadaten | MangaDex |
 | ComicVine | Comic-Metadaten | Fandom, Inc., USA |
 | ISBNdb | ISBN-Metadaten | ISBNdb |
-| HERE Geocoding | Adressvervollständigung | HERE Global B.V., Niederlande |
+| HERE Geocoding | Adressvervollständigung (Tauschbörse) | HERE Global B.V., Niederlande |
+| OpenStreetMap / Overpass API | Lokale Buchhandlungssuche | OpenStreetMap Foundation, UK (EU-Server) |
 | Supabase | Backend-Infrastruktur | Supabase, Inc., USA (EU-Server) |
 | Firebase Cloud Messaging | Push-Benachrichtigungen (geplant) | Google LLC, USA |
 
@@ -280,10 +361,7 @@ Sollten einzelne Bestimmungen dieser AGB ganz oder teilweise unwirksam oder undu
 
 Bei Fragen zu diesen AGB wende dich bitte an:
 
-Alfred Schenkel
-Bogenstraße 30
-47799 Krefeld
-Deutschland
+Alfred Schenkel und Jan-Hendrik Schoendorff GbR
 E-Mail: support@macobu.de
 
 ---

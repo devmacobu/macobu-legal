@@ -1,10 +1,18 @@
 # Datenschutzerklärung — Macobu
 
-**Verantwortlicher:**
+**Verantwortliche:**
+Alfred Schenkel und Jan-Hendrik Schoendorff GbR
+
 Alfred Schenkel
 Bogenstraße 30
 47799 Krefeld
 Deutschland
+
+Jan-Hendrik Schoendorff
+Hauptstraße 195
+47809 Krefeld
+Deutschland
+
 E-Mail: support@macobu.de
 
 **Letzte Aktualisierung:** März 2026
@@ -75,15 +83,57 @@ Macobu ermöglicht den direkten Tausch von Büchern, Mangas und Comics zwischen 
 
 - **Support-Zugriff während laufender Tausche:** Vor Abschluss eines laufenden Tauschs kann unser Support im Rahmen der Vertragserfüllung auf Lieferadressen und Sendungsnummern zugreifen, um bei Problemen zu helfen (z.B. falsche Adresse, fehlgeschlagener Versand). Nach Abschluss des Tauschs ist dies technisch nicht mehr möglich, da die Adressdaten automatisch gelöscht werden. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
 
-### 2.6 Soziale Funktionen
+### 2.6 Nachrichten / Chat
+
+Macobu bietet einen privaten 1:1-Chat zwischen Nutzern, die eine Tauschanfrage miteinander gestartet haben. Die Chatfunktion wird **12 Stunden nach Kontoerstellung** freigeschaltet (Schutzmaßnahme gegen Missbrauch).
+
+**Welche Daten gespeichert werden:**
+- **Nachrichteninhalte:** Der Wortlaut deiner gesendeten Nachrichten (max. 2.000 Zeichen pro Nachricht), verknüpft mit deiner Nutzer-ID, dem Zeitstempel und der zugehörigen Tausch-ID.
+- **Metadaten:** Zeitpunkt des Sendens, Zeitpunkt des Lesens (Lesebestätigung), ob eine Nachricht für dich oder deinen Gesprächspartner gelöscht wurde.
+- **Zustellstatus:** Ob eine Nachricht gelesen wurde (Lesebestätigung).
+
+**Wie lange Daten aufbewahrt werden:**
+- Chat-Nachrichten werden aufbewahrt, solange das zugehörige Gespräch aktiv ist.
+- Nach Account-Löschung: Nachrichteninhalte werden nach 30 Tagen gelöscht; Metadaten (Zeitstempel, Meldungs-IDs) für Streitfälle 90 Tage aufbewahrt.
+- Gemeldete Chats werden mindestens 30 Tage zusätzlich aufbewahrt — auch wenn du deinen Account löschst — zur Erfüllung rechtlicher Pflichten nach dem Digital Services Act (DSA).
+
+**Automatisierte Inhaltsmoderation:**
+Jede Nachricht wird **vor dem Speichern** automatisch auf unerlaubte Inhalte geprüft (externe Links, Telefonnummern, E-Mail-Adressen, Messenger-Einladungen). Nachrichten, die gegen die Filterregeln verstoßen, werden **nicht** gespeichert; ein anonymisiertes Protokoll des Filterverstoßes (Regelname, Zeitstempel, Nutzer-ID — kein Nachrichteninhalt) wird für Missbrauchs-Analysen gespeichert.
+
+**Meldungen und manuelle Prüfung:**
+Du kannst einzelne Nachrichten melden (Kategorien: Betrug, Belästigung, explizite Inhalte, Spam, Sonstiges). Gemeldete Nachrichten werden von Mitarbeitern des Anbieters eingesehen und bewertet. Die Meldung erhält eine eindeutige Meldungs-ID, die dem meldenden Nutzer zur Rückverfolgung mitgeteilt wird. Rechtsgrundlage: Art. 6 Abs. 1 lit. c DSGVO (rechtliche Verpflichtung nach DSA Art. 16) und Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an Plattformsicherheit).
+
+**Datenweitergabe an Behörden:**
+Bei begründetem Verdacht auf Straftaten (insbesondere Betrug, Bedrohung, Verbreitung illegaler Inhalte) sind wir gemäß § 138 StGB, § 10 Abs. 1 NetzDG sowie auf richterliche Anordnung verpflichtet bzw. berechtigt, Chat-Daten an zuständige Strafverfolgungsbehörden weiterzugeben. Wir geben keine Daten auf freiwilliger Basis ohne richterliche Anordnung weiter.
+
+**Keine End-to-End-Verschlüsselung:**
+Nachrichten werden verschlüsselt übertragen (TLS/HTTPS) und verschlüsselt gespeichert (AES-256), sind jedoch **nicht** Ende-zu-Ende-verschlüsselt. Dies ist notwendig, damit die automatisierte Inhaltsmoderation und die manuelle Prüfung gemeldeter Inhalte durchgeführt werden können. Dieser Umstand wird hier transparent kommuniziert.
+
+**Blockierungen:**
+Wenn du einen Nutzer blockierst, wird ein Datensatz (deine Nutzer-ID, die ID des blockierten Nutzers, Zeitstempel) gespeichert. Blockierungen sind für den blockierten Nutzer nicht einsehbar. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
+
+Rechtsgrundlage für die Chatfunktion insgesamt: Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung) für die Grundfunktion; Art. 6 Abs. 1 lit. c DSGVO für Aufbewahrungspflichten nach DSA; Art. 6 Abs. 1 lit. f DSGVO für Sicherheits- und Moderationsmaßnahmen.
+
+### 2.7 Soziale Funktionen
 
 - **Follower und Following:** Wenn du einem anderen Nutzer folgst, wird diese Verbindung gespeichert. Dein Follower- und Following-Zähler ist auf deinem öffentlichen Profil sichtbar. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
 
-### 2.7 Achievements und Badges
+### 2.8 Achievements und Badges
 
 - **Bewertungszähler und Abzeichen:** Die Anzahl deiner abgegebenen Buchbewertungen wird gespeichert und dient zur Freischaltung von Achievements-Abzeichen. Diese Zahl und ein von dir gewähltes, angepinntes Abzeichen sind auf deinem öffentlichen Profil sichtbar. Es findet kein externes Profiling statt — alle Berechnungen basieren ausschließlich auf deiner Aktivität innerhalb der App. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
 
-### 2.8 Push-Benachrichtigungen (geplant)
+### 2.9 Standortdaten (lokale Buchhandlungssuche)
+
+Wenn du in der Wunschliste auf „Lokal in deiner Nähe" tippst, fragt die App einmalig nach deinem GPS-Standort, um Buchhandlungen, Manga- und Comicläden in deiner Nähe zu finden und nach Entfernung zu sortieren.
+
+- **Verarbeitete Daten:** GPS-Koordinaten (Breitengrad, Längengrad)
+- **Zweck:** Anzeige lokaler Buchhandlungen und Fachgeschäfte
+- **Rechtsgrundlage:** Art. 6 Abs. 1 lit. a DSGVO (Einwilligung durch explizite Bestätigung in der App vor der ersten Standortabfrage)
+- **Speicherung:** Der Standort wird **nicht gespeichert** — er wird ausschließlich transient im Arbeitsspeicher verwendet, um die OpenStreetMap Overpass API anzufragen, und danach sofort verworfen.
+- **Weitergabe:** Deine Koordinaten werden einmalig an die OpenStreetMap Overpass API (über unseren serverseitigen Proxy) übermittelt, um Läden in deiner Nähe zu suchen. Die Overpass API erhält keine Nutzer-ID oder andere personenbezogene Daten.
+- **Ablehnung:** Du kannst die Berechtigung verweigern oder jederzeit in den Systemeinstellungen widerrufen. Die übrigen App-Funktionen sind davon nicht betroffen.
+
+### 2.10 Push-Benachrichtigungen (geplant)
 
 Sobald Push-Benachrichtigungen aktiviert sind, wird ein Gerätetoken (FCM-Token) gespeichert, um dir Benachrichtigungen über Tauschaktivitäten zu senden (z.B. Tausch bestätigt, Paket versendet). Die Speicherung erfolgt nur mit deiner ausdrücklichen Einwilligung. Du kannst deine Einwilligung jederzeit widerrufen, indem du Push-Benachrichtigungen in den Geräteeinstellungen deaktivierst oder dich aus der App abmeldest. Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO.
 
@@ -138,7 +188,17 @@ Für die Adresseingabe in der Tauschbörse nutzen wir die HERE Geocoding API. Di
 - **Verarbeitete Daten:** Eingetippte Adresstexte (ohne Nutzerbezug durch HERE)
 - **Datenschutzerklärung:** https://www.here.com/privacy
 
-### 3.7 Firebase Cloud Messaging (geplant)
+### 3.7 OpenStreetMap / Overpass API (lokale Buchhandlungssuche)
+
+Für die Funktion „Lokal in deiner Nähe" in der Wunschliste nutzen wir die Overpass API, die auf den freien Kartendaten von OpenStreetMap (OSM) basiert. Dabei werden deine GPS-Koordinaten einmalig über unseren serverseitigen Proxy an die Overpass API übermittelt, um nahegelegene Buchhandlungen, Manga- und Comicläden zu finden.
+
+- **Anbieter:** OpenStreetMap Foundation (OSMF), gemeinnützige Organisation nach englischem Recht; Overpass API betrieben durch die OSM-Community (overpass-api.de)
+- **Verarbeitete Daten:** GPS-Koordinaten (transient, nicht gespeichert von uns); die Overpass API verarbeitet die Koordinaten ausschließlich zur Durchführung der Suchanfrage. Es werden keine personenbezogenen Daten wie Nutzer-ID, Name oder E-Mail-Adresse übermittelt. Die Kartendaten selbst sind gemeinfrei (Open Database Licence, ODbL).
+- **Drittlandübermittlung:** Keine — die Overpass API wird innerhalb der EU betrieben.
+- **Rechtsgrundlage:** Art. 6 Abs. 1 lit. a DSGVO (Einwilligung durch explizite Bestätigung vor der ersten Standortabfrage)
+- **Datenschutzerklärung OpenStreetMap:** https://osmfoundation.org/wiki/Privacy_Policy
+
+### 3.8 Firebase Cloud Messaging (geplant)
 
 Sobald Push-Benachrichtigungen aktiviert sind, nutzen wir Firebase Cloud Messaging (FCM) für die Zustellung.
 
@@ -146,7 +206,7 @@ Sobald Push-Benachrichtigungen aktiviert sind, nutzen wir Firebase Cloud Messagi
 - **Rechtsgrundlage:** Einwilligung (Art. 6 Abs. 1 lit. a DSGVO); Standardvertragsklauseln für Drittlandübermittlung
 - **Datenschutzerklärung:** https://firebase.google.com/support/privacy
 
-### 3.8 ISBNdb
+### 3.9 ISBNdb
 
 Für die Suche nach Buchmetadaten anhand von ISBN-Nummern nutzen wir ISBNdb. Anfragen werden ausschließlich über einen serverseitigen Proxy gestellt; es werden keine personenbezogenen Nutzerdaten übermittelt, sondern nur ISBN-Nummern bzw. Suchtitel.
 
@@ -166,6 +226,10 @@ Für die Suche nach Buchmetadaten anhand von ISBN-Nummern nutzen wir ISBNdb. Anf
 | Leseverlauf / Archiv | Dauerhaft bis zur Löschung des Accounts |
 | Swipe-Verhalten | Bis zur Löschung des Accounts |
 | Wunschliste | Bis zur Löschung des Accounts |
+| **Chat-Nachrichten (Inhalt)** | **30 Tage nach Account-Löschung; bei gemeldeten Chats mindestens 30 Tage nach Meldung** |
+| **Chat-Metadaten (Zeitstempel, Meldungs-IDs)** | **90 Tage nach Account-Löschung** |
+| **Blockierungen** | Bis zur Aufhebung der Blockierung oder Löschung des Accounts |
+| **Filterprotokoll (Regelverstoß)** | 90 Tage |
 | **Lieferadressen** | **Automatisch und dauerhaft gelöscht unmittelbar nach Tausch-Abschluss** |
 | Sendungsnummern | 90 Tage nach Tausch-Abschluss, danach automatisch gelöscht |
 | Tausch-Verlauf (Status, Zeitstempel) | Bis zur Löschung des Accounts |
@@ -179,7 +243,16 @@ Für die Suche nach Buchmetadaten anhand von ISBN-Nummern nutzen wir ISBNdb. Anf
 
 ### 5.1 Auskunftsrecht (Art. 15 DSGVO)
 
-Du hast das Recht zu erfahren, welche personenbezogenen Daten wir über dich gespeichert haben. Du kannst einen vollständigen **Datenexport** direkt in der App erstellen: Profil → Einstellungen → „Meine Daten exportieren". Der Export enthält Profil, Bibliothek, Wunschliste, Archiv und Swipe-Verlauf als JSON-Datei.
+Du hast das Recht zu erfahren, welche personenbezogenen Daten wir über dich gespeichert haben. Du kannst einen vollständigen **Datenexport** direkt in der App erstellen: Profil → Einstellungen → „Meine Daten exportieren". Der Export enthält folgende Datenkategorien als strukturierte JSON-Datei gemäß Art. 20 DSGVO (Recht auf Datenübertragbarkeit):
+
+- Profildaten (Benutzername, Anzeigename, Biografie, Präferenzen)
+- Bibliothek (Bücherliste mit Status, Notizen, Bewertungen)
+- Wunschliste
+- Archiv (Leseverlauf)
+- Swipe-Verlauf
+- Chat-Nachrichten (Inhalte und Zeitstempel deiner gesendeten Nachrichten)
+- Follow-Beziehungen (Nutzer denen du folgst)
+- Tausch-Verlauf (Status und Zeitstempel abgeschlossener und laufender Tausche)
 
 ### 5.2 Berichtigungsrecht (Art. 16 DSGVO)
 
@@ -239,9 +312,7 @@ Es findet keine automatisierte Entscheidungsfindung mit Rechtswirkung im Sinne v
 
 Bei Fragen zum Datenschutz oder zur Ausübung deiner Rechte wende dich bitte an:
 
-Alfred Schenkel
-Bogenstraße 30
-47799 Krefeld
+Alfred Schenkel und Jan-Hendrik Schoendorff GbR
 E-Mail: support@macobu.de
 
 Anfragen werden kostenlos und innerhalb von einem Monat beantwortet (Art. 12 Abs. 3 DSGVO).

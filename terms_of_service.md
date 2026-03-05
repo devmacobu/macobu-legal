@@ -1,10 +1,18 @@
 # Terms of Service — Macobu
 
 **Provider:**
+Alfred Schenkel und Jan-Hendrik Schoendorff GbR (civil law partnership under § 705 BGB)
+
 Alfred Schenkel
 Bogenstraße 30
 47799 Krefeld
 Germany
+
+Jan-Hendrik Schoendorff
+Hauptstraße 195
+47809 Krefeld
+Germany
+
 E-Mail: support@macobu.de
 
 **Last updated:** March 2026
@@ -86,49 +94,118 @@ E-Mail: support@macobu.de
 
 (2) The exchange agreement is concluded exclusively between the participating users. The Provider assumes no liability for the proper execution of any exchange.
 
-### 5.2 Requirements and Condition of Items
+### 5.2 Prohibited Content
 
-(3) The following requirements apply to trades:
+(3) It is prohibited to offer or exchange media whose distribution in Germany is banned or constitutes a criminal offence. This includes in particular:
+
+1. Media containing National Socialist propaganda or symbols of unconstitutional organisations (§§ 86, 86a German Criminal Code / StGB)
+2. Media with content inciting hatred or violence against segments of the population (§ 130 StGB)
+3. Media that have been seized or confiscated pursuant to criminal law
+4. Media listed on the index of the Federal Review Board for Media Harmful to Minors (BzKJ, formerly BPjM) — regardless of whether a private exchange might be legally permissible in individual cases
+5. Any other media whose possession, transfer or distribution is a criminal offence under German law
+
+The platform enforces this requirement technically via an automated content check (content blocklist). Violations may result in immediate account suspension and referral to the competent authorities.
+
+### 5.3 Requirements and Condition of Items
+
+(4) The following further requirements apply to trades:
 
 1. Only Macobus from the user's own inventory may be offered for exchange
 2. Offered Macobus must have been legally acquired — illegal copies or pirated editions are prohibited
-3. The actual condition of the Macobu must correspond to the condition stated in the app
-4. Only complete copies may be offered (no missing pages, volumes, etc.)
+3. Macobus may be offered for exchange if they are in a **complete and at least commonly acceptable used condition**. This means: all pages and volumes present, content legible, no severe damage (water damage, missing chapters, destroyed binding). Normal signs of use (creases, slight yellowing, spine creases) are permitted, provided they correspond to the condition stated in the app.
+4. The actual condition of the Macobu must correspond to the condition stated in the app. In cases of doubt, the lower actual condition takes precedence.
 
-(4) If the actual condition differs significantly from the stated condition, the receiving user has the right to assert claims directly against the sending user. The Provider is not a liable party for such claims.
+(5) If the actual condition differs significantly from the stated condition or fails to meet the minimum standard set out in No. 3, the receiving user has the right to assert claims directly against the sending user. Claims are governed by the applicable rules on warranty and conformity of goods. The Provider is not a liable party for such claims.
 
-### 5.3 Shipping and Risk
+### 5.4 Shipping and Risk
 
-(5) Shipping is at the cost and risk of the respective sender. The Provider assumes no liability for:
+(6) Shipping is at the cost and risk of the respective sender. The Provider assumes no liability for:
 - Loss or damage to shipments during transit
 - Delays caused by shipping service providers
 - Incorrect or illegible address details provided by the recipient
 
-(6) The choice of shipping service provider is at the user's discretion. It is recommended to send packages with tracking and, if appropriate, insurance.
+(7) The choice of shipping service provider is at the user's discretion. It is recommended to send packages with tracking and, if appropriate, insurance.
 
-### 5.4 Delivery Address
+### 5.5 Delivery Address
 
-(7) The delivery address entered by the user is made accessible exclusively to the respective trade partner for shipping purposes. A subsequent change to the address after it has been submitted is technically not possible. The user is responsible for the accuracy of the address provided.
+(8) The delivery address entered by the user is made accessible exclusively to the respective trade partner for shipping purposes. A subsequent change to the address after it has been submitted is technically not possible. The user is responsible for the accuracy of the address provided.
 
-(8) After completion of the trade, the delivery address is automatically and permanently anonymised. Further details can be found in the Privacy Policy.
+(9) After completion of the trade, the delivery address is automatically and permanently anonymised. Further details can be found in the Privacy Policy.
 
-### 5.5 Tracking Number
+### 5.6 Tracking Number
 
-(9) By entering and submitting a tracking number to the trade partner, the shipment is considered bindingly confirmed. Cancellation of the trade is not possible from this point onwards.
+(10) By entering and submitting a tracking number to the trade partner, the shipment is considered bindingly confirmed. Cancellation of the trade is not possible from this point onwards.
 
-### 5.6 Cancellation
+### 5.7 Cancellation
 
-(10) A trade may be cancelled by the user up until the point of entering the tracking number. After the tracking number has been submitted, cancellation is excluded.
+(11) A trade may be cancelled by the user up until the point of entering the tracking number. After the tracking number has been submitted, cancellation is excluded.
 
-(11) A right of withdrawal under distance selling regulations does not apply, as the exchange takes place between private individuals and the Provider is not a party to the agreement.
+(12) A right of withdrawal under distance selling regulations does not apply, as the exchange takes place between private individuals and the Provider is not a party to the agreement.
 
-### 5.7 Geographic Scope
+### 5.8 Geographic Scope
 
-(12) Trades are generally possible worldwide. However, due to increased shipping costs and risks, the Provider recommends restricting trades to the German-speaking region (Germany, Austria, Switzerland). The Provider assumes no liability for customs law consequences of international shipments.
+(13) Trades are generally possible worldwide. However, due to increased shipping costs and risks, the Provider recommends restricting trades to the German-speaking region (Germany, Austria, Switzerland). The Provider assumes no liability for customs law consequences of international shipments.
 
 ---
 
-## § 6 Ratings and Community Ratings
+## § 6 Messaging Feature (Chat)
+
+### 6.1 General
+
+(1) Macobu provides a private 1:1 messaging service (hereinafter "Chat") available exclusively between users who share a trade request. The Chat is a technical tool for coordinating trades.
+
+(2) The Chat feature and the trade feature are **unlocked 12 hours after account creation**. This period serves to protect the platform and its users against misuse.
+
+(3) Messages may not exceed **2,000 characters** in length.
+
+### 6.2 Prohibited Content in Chat
+
+(4) The following content is prohibited in the Chat:
+
+1. External links (HTTP/HTTPS links, www addresses, domain names of any kind)
+2. Phone numbers in any format
+3. E-mail addresses
+4. Invitations to external messaging services (WhatsApp, Telegram, Signal, etc.)
+5. Offensive, threatening, discriminatory or unlawful content
+6. Content that violates § 4 of these Terms
+
+(5) Violations of Nos. 1–4 above are detected automatically and result in immediate blocking of the message (the message is not delivered or stored). Repeated violations may result in temporary or permanent suspension of the account.
+
+### 6.3 Automated Content Moderation
+
+(6) Every message is automatically screened for prohibited content before being stored (filter rules pursuant to para. 4 Nos. 1–4). This screening takes place in real time. Filter rules may be adjusted by the Provider without prior notice if required for platform security.
+
+(7) Messages are **not** end-to-end encrypted, in order to enable the content moderation described in para. 6 and the manual review of reported messages (§ 6.5).
+
+### 6.4 Rate Limiting
+
+(8) Each user may send a maximum of **60 messages per hour**. If this limit is exceeded, the user will be notified; the message will not be sent. Repeated violations may result in a temporary suspension of the Chat feature (1 hour / 24 hours / 7 days).
+
+### 6.5 Reporting Obligations and DSA Compliance
+
+(9) Any user may report individual messages via the report function (long-press on the message). Report categories: fraud/scam, harassment/threats, explicit/offensive content, spam, other.
+
+(10) Pursuant to Art. 16 of Regulation (EU) 2022/2065 (Digital Services Act, DSA), a report ID is communicated to the reporting user for tracking purposes. The Provider will review the report without undue delay, no later than within 24 hours.
+
+(11) Where a report is substantiated, the Provider may take the following measures:
+1. Delete the individual message
+2. Issue a warning to the reported user
+3. Freeze the chat (read-only, no new messages)
+4. Temporarily or permanently suspend the reported user's account
+
+### 6.6 Blocking Feature
+
+(12) Any user may block other users. After a block, no chat, no trade, and no discovery of the blocked user is possible. The block is not visible to the blocked user. Blocks may be lifted by the blocking user at any time.
+
+### 6.7 Soft-Delete and Data Retention
+
+(13) Users may hide individual messages for themselves (soft-delete). The original content is retained in the database for legal reasons (disputes, moderation, DSA compliance) but is no longer visible to the user.
+
+(14) Further information on retention periods and data deletion can be found in the Privacy Policy (§ 14 of these Terms).
+
+---
+
+## § 6a Ratings and Community Ratings
 
 (1) Ratings may only be submitted for Macobus that are in the user's own library. Ratings are numerical (0–10 across 6 categories) and contain no free text.
 
@@ -214,7 +291,8 @@ E-Mail: support@macobu.de
 | MangaDex | Manga metadata | MangaDex |
 | ComicVine | Comic metadata | Fandom, Inc., USA |
 | ISBNdb | ISBN metadata | ISBNdb |
-| HERE Geocoding | Address autocomplete | HERE Global B.V., Netherlands |
+| HERE Geocoding | Address autocomplete (trade exchange) | HERE Global B.V., Netherlands |
+| OpenStreetMap / Overpass API | Local bookstore search | OpenStreetMap Foundation, UK (EU servers) |
 | Supabase | Backend infrastructure | Supabase, Inc., USA (EU servers) |
 | Firebase Cloud Messaging | Push notifications (planned) | Google LLC, USA |
 
@@ -280,10 +358,7 @@ Should any provision of these Terms be or become wholly or partially invalid or 
 
 For questions regarding these Terms, please contact:
 
-Alfred Schenkel
-Bogenstraße 30
-47799 Krefeld
-Germany
+Alfred Schenkel und Jan-Hendrik Schoendorff GbR
 E-Mail: support@macobu.de
 
 ---
