@@ -83,9 +83,16 @@ Macobu enables the direct exchange of books, manga and comics between users (pee
 
 - **Support access during active trades:** Prior to completion of an active trade, our support team may access delivery addresses and tracking numbers in the context of contract performance in order to assist with problems (e.g. incorrect address, failed shipment). After the trade is completed this is technically no longer possible, as the address data is automatically deleted. Legal basis: Art. 6(1)(b) GDPR.
 
+- **Button Exchange (Credit System):** In addition to direct trades, Macobu offers an internal credit system. Credits are referred to as "buttons" (Knöpfe) within the app and allow you to receive a Macobu from another user without offering a book in return. The following data is stored:
+  - **Balance fields:** Your current button balance (`credits`), frozen buttons in ongoing trade transactions (`credits_pending`), and your historically spent balance — part of your profile record.
+  - **Transaction log (credit_transactions):** Every credit transaction is permanently recorded (amount, reason: earned / spent / frozen / refunded / initial credit / tier bonus, timestamp, associated trade ID). The transaction log is accessible exclusively to you and the provider and serves to make your balance transparent and traceable.
+  - **Tier bonus status:** Which tier milestones have already credited you a button is stored — to prevent duplicate credits.
+
+  Legal basis: Art. 6(1)(b) GDPR.
+
 ### 2.6 Messaging / Chat
 
-Macobu provides a private 1:1 chat between users who have initiated a trade together. The chat feature is **unlocked 12 hours after account creation** (a protective measure against misuse).
+Macobu provides a private 1:1 chat in two variants: (a) as a **trade chat** between users with a shared trade request and (b) as **direct messages** between users who mutually follow each other. The chat feature is **unlocked 12 hours after account creation** (a protective measure against misuse).
 
 **Data stored:**
 - **Message content:** The text of your sent messages (max. 2,000 characters per message), linked to your user ID, the timestamp, and the associated trade ID.
@@ -132,9 +139,20 @@ When you tap "Local stores nearby" in the wish list, the app requests your GPS l
 - **Disclosure:** Your coordinates are transmitted once to the Google Places API (via our server-side proxy) to search for nearby stores. The Google Places API does not receive a user ID or other personal data.
 - **Refusal:** You may deny the permission or revoke it at any time in your device settings. All other app functions remain unaffected.
 
-### 2.10 Push Notifications (planned)
+### 2.10 Push Notifications
 
-Once push notifications are activated, a device token (FCM token) will be stored in order to send you notifications about trade activity (e.g. trade confirmed, parcel shipped). Storage only takes place with your explicit consent. You can withdraw your consent at any time by disabling push notifications in your device settings or by logging out of the app. Legal basis: Art. 6(1)(a) GDPR.
+Macobu uses Firebase Cloud Messaging (FCM) for push notifications. With your explicit consent, a device token (FCM token) is stored to deliver notifications about trade activity (e.g. new trade request, trade confirmed, parcel shipped). You can withdraw your consent at any time by disabling push notifications in your device settings or by logging out of the app. Legal basis: Art. 6(1)(a) GDPR.
+
+### 2.11 Moderation and Sanctions Data
+
+To ensure platform safety and to fulfil our obligations under the Digital Services Act (DSA), the following moderation data is processed:
+
+- **Reports:** When a user reports a message or content, a report record is created (report type, reported content, reporting user ID, reason category, timestamp, processing status). Reported content is retained for at least 30 days — even if the reporting user deletes their account.
+- **Sanctions:** Warnings, temporary chat or account suspensions, and permanent bans are recorded (user ID, sanction type, reason, duration, timestamp). This data is retained until the affected user's account is deleted.
+- **Forced username change:** The Provider may require a user to choose a new username at their next login as a moderation measure. This action is logged via a flag on the user's profile.
+- **Content blocklist:** Certain content (e.g. media listed on the youth protection index) is maintained in an internal blocklist based on ISBN. This list contains no personal data of any users.
+
+Legal basis: Art. 6(1)(c) GDPR (legal obligation under the DSA) and Art. 6(1)(f) GDPR (legitimate interest in platform security).
 
 ---
 
@@ -198,12 +216,12 @@ For the "Local stores nearby" feature in the wish list we use the Google Places 
 - **Legal basis:** Art. 6(1)(a) GDPR (consent via explicit in-app confirmation before the first location request)
 - **Privacy policy:** https://policies.google.com/privacy
 
-### 3.8 Firebase Cloud Messaging (planned)
+### 3.8 Firebase Cloud Messaging
 
-Once push notifications are activated, we use Firebase Cloud Messaging (FCM) for delivery.
+We use Firebase Cloud Messaging (FCM) for push notifications.
 
 - **Provider:** Google LLC, USA
-- **Legal basis:** Consent (Art. 6(1)(a) GDPR); Standard Contractual Clauses for third-country transfer
+- **Legal basis:** Consent (Art. 6(1)(a) GDPR); Standard Contractual Clauses (SCCs) for third-country transfers pursuant to Art. 46(2)(c) GDPR
 - **Privacy policy:** https://firebase.google.com/support/privacy
 
 ### 3.9 ISBNdb
@@ -236,6 +254,8 @@ We use ISBNdb to look up book metadata by ISBN number. Requests are made exclusi
 | Follow relationships | Until account deletion |
 | Push token (FCM) | Until logout or account deletion |
 | Consent timestamp | Until account deletion |
+| Button Exchange transaction log (credit_transactions) | Until account deletion |
+| Moderation and sanctions data | Until the affected user's account is deleted; reported content at least 30 days after the report |
 
 ---
 

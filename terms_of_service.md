@@ -29,6 +29,8 @@ E-Mail: support@macobu.de
 - Rating Macobus on a numerical scale
 - Maintaining a personal wish list
 - Peer-to-peer exchange of Macobus between users (Trade Exchange)
+- Credit-based exchange via the Button Exchange system (§ 5a)
+- Private messaging service (Chat) between trade partners and mutual followers
 - Social features (profiles, follow system, achievements)
 
 (3) These Terms apply exclusively to consumers within the meaning of applicable consumer protection law. Commercial use by businesses is excluded.
@@ -148,11 +150,43 @@ The platform enforces this requirement technically via an automated content chec
 
 ---
 
+## § 5a Button Exchange (Credit System)
+
+### 5a.1 General
+
+(1) In addition to the direct trade (§ 5), Macobu offers an internal credit system. Credits are referred to as "buttons" (Knöpfe) within the app.
+
+(2) Using a button, a user (User A) can receive a Macobu from another user (User B) without offering a book in return. User B receives a button as compensation.
+
+### 5a.2 Acquiring Buttons
+
+(3) Buttons are internal platform credits with no monetary value. They cannot be purchased, sold or transferred to other users. Buttons are credited exclusively through the following events:
+
+1. **Initial credit:** Every new user automatically receives one (1) button, 12 hours after account creation.
+2. **Tier milestones:** Upon first unlocking the "Story Hunter", "Connoisseur" and "Macobu Legend" tiers, one (1) additional button is credited per milestone. Each milestone can only credit a button once.
+3. **As offering user in a Button Exchange:** User B receives one (1) button after successful completion of a Button Exchange.
+
+### 5a.3 Use and Freezing of Buttons
+
+(4) A button is frozen when User A initiates a Button Exchange request (status "credits_pending") and is finally deducted only after both parties confirm receipt.
+
+(5) If a Button Exchange is declined or cancelled before completion, the frozen button is automatically refunded to User A.
+
+### 5a.4 No Monetary Value, No Refund Entitlement
+
+(6) Buttons have no monetary value. There is no entitlement to payout, exchange, transfer or compensation for buttons — whether during ongoing operations, upon account deletion, termination of the usage agreement, or discontinuation of the platform.
+
+### 5a.5 Transaction Log
+
+(7) Every button transaction (credit, debit, freeze, refund) is transparently recorded and traceable by the user within the app.
+
+---
+
 ## § 6 Messaging Feature (Chat)
 
 ### 6.1 General
 
-(1) Macobu provides a private 1:1 messaging service (hereinafter "Chat") available exclusively between users who share a trade request. The Chat is a technical tool for coordinating trades.
+(1) Macobu provides a private 1:1 messaging service (hereinafter "Chat"). The Chat is available in two variants: (a) as a **trade chat** between users with a shared trade request (a technical tool for coordinating trades) and (b) as **direct messages** between users who mutually follow each other. The provisions of this section apply equally to both variants.
 
 (2) The Chat feature and the trade feature are **unlocked 12 hours after account creation**. This period serves to protect the platform and its users against misuse.
 

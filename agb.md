@@ -29,7 +29,8 @@ E-Mail: support@macobu.de
 - Bewertung von Macobus auf einer numerischen Skala
 - Führen einer persönlichen Wunschliste
 - Peer-to-Peer-Tausch von Macobus zwischen Nutzern (Tauschbörse)
-- Privater Nachrichtendienst (Chat) zwischen Tauschpartnern
+- Credit-basierter Tausch über das Knopftausch-System (§ 5a)
+- Privater Nachrichtendienst (Chat) zwischen Tauschpartnern und gegenseitigen Followern
 - Soziale Funktionen (Profile, Follow-System, Achievements)
 
 (3) Diese AGB gelten ausschließlich gegenüber Verbrauchern im Sinne des § 13 BGB. Unternehmer im Sinne des § 14 BGB sind von der Nutzung ausgeschlossen.
@@ -149,11 +150,43 @@ Die Plattform setzt diese Voraussetzung technisch durch eine automatisierte Inha
 
 ---
 
+## § 5a Knopftausch (Credit-System)
+
+### 5a.1 Allgemeines
+
+(1) Macobu bietet neben dem Direkt-Tausch (§ 5) ein ergänzendes Credit-System an. Credits werden in der App als „Knöpfe" bezeichnet.
+
+(2) Mit einem Knopf kann ein Nutzer (User A) ein Macobu von einem anderen Nutzer (User B) beziehen, ohne selbst ein Buch zum Tausch anzubieten. User B erhält dafür einen Knopf als Vergütung.
+
+### 5a.2 Erwerb von Knöpfen
+
+(3) Knöpfe sind interne Plattform-Credits ohne wirtschaftlichen Wert. Sie können weder gekauft, verkauft noch auf andere Nutzer übertragen werden. Knöpfe werden ausschließlich durch folgende Ereignisse gutgeschrieben:
+
+1. **Einstiegsguthaben:** Jeder neue Nutzer erhält automatisch einen (1) Knopf, 12 Stunden nach Kontoerstellung.
+2. **Tier-Meilensteine:** Bei Erstfreischaltung der Tiers „Story Hunter", „Connoisseur" und „Macobu Legend" wird je ein (1) zusätzlicher Knopf gutgeschrieben. Jeder Meilenstein kann nur einmal einen Knopf gewähren.
+3. **Als anbietender Nutzer im Knopftausch:** User B erhält nach erfolgreichem Abschluss eines Knopftauschs einen (1) Knopf.
+
+### 5a.3 Verwendung und Einfrierung von Knöpfen
+
+(4) Ein Knopf wird bei Initiierung einer Knopftausch-Anfrage durch User A eingefroren (Status „credits_pending") und erst nach beidseitiger Empfangsbestätigung endgültig abgebucht.
+
+(5) Bei Ablehnung oder Abbruch eines Knopftauschs vor dem Abschluss wird der eingefrorene Knopf automatisch an User A zurückerstattet.
+
+### 5a.4 Kein Geldwert, kein Auszahlungsanspruch
+
+(6) Knöpfe haben keinen monetären Wert. Es besteht kein Anspruch auf Auszahlung, Umtausch, Übertragung oder Entschädigung für Knöpfe — weder während des laufenden Betriebs noch bei Account-Löschung, Kündigung des Nutzungsverhältnisses oder Einstellung der Plattform.
+
+### 5a.5 Buchungsprotokoll
+
+(7) Jede Knopf-Transaktion (Erhalt, Ausgabe, Einfrierung, Rückerstattung) wird transparent protokolliert und ist für den Nutzer in der App nachvollziehbar.
+
+---
+
 ## § 6 Nachrichten-Funktion (Chat)
 
 ### 6.1 Allgemeines
 
-(1) Macobu stellt einen privaten 1:1-Nachrichtendienst (nachfolgend „Chat") bereit, der ausschließlich zwischen Nutzern mit einer gemeinsamen Tauschanfrage genutzt werden kann. Der Chat ist ein technisches Hilfsmittel zur Koordination des Tauschs.
+(1) Macobu stellt einen privaten 1:1-Nachrichtendienst (nachfolgend „Chat") bereit. Der Chat steht in zwei Varianten zur Verfügung: (a) als **Tausch-Chat** zwischen Nutzern mit einer gemeinsamen Tauschanfrage (technisches Hilfsmittel zur Koordination des Tauschs) und (b) als **Direkt-Nachricht** zwischen Nutzern, die sich gegenseitig folgen. Für beide Varianten gelten die Regelungen dieses Paragraphen gleichermaßen.
 
 (2) Die Chatfunktion sowie die Tauschfunktion werden **12 Stunden nach Kontoerstellung** freigeschaltet. Diese Frist dient dem Schutz der Plattform und ihrer Nutzer vor Missbrauch.
 

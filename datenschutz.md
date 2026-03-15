@@ -83,9 +83,16 @@ Macobu ermöglicht den direkten Tausch von Büchern, Mangas und Comics zwischen 
 
 - **Support-Zugriff während laufender Tausche:** Vor Abschluss eines laufenden Tauschs kann unser Support im Rahmen der Vertragserfüllung auf Lieferadressen und Sendungsnummern zugreifen, um bei Problemen zu helfen (z.B. falsche Adresse, fehlgeschlagener Versand). Nach Abschluss des Tauschs ist dies technisch nicht mehr möglich, da die Adressdaten automatisch gelöscht werden. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
 
+- **Knopftausch (Credit-System):** Ergänzend zum Direkt-Tausch bietet Macobu ein internes Credit-System an. Credits werden in der App als „Knöpfe" bezeichnet und ermöglichen es, ein Macobu von einem anderen Nutzer zu beziehen, ohne selbst ein Buch anzubieten. Dabei werden folgende Daten gespeichert:
+  - **Guthaben-Felder:** Dein aktuelles Knopf-Guthaben (`credits`), eingefrorene Knöpfe in laufenden Tauschvorgängen (`credits_pending`) sowie das historisch ausgegebene Guthaben — Teil deines Profildatensatzes.
+  - **Buchungsprotokoll (credit_transactions):** Jede Credit-Transaktion wird dauerhaft protokolliert (Betrag, Grund: erhalten / ausgegeben / eingefroren / erstattet / Anfangsguthaben / Tier-Bonus, Zeitstempel, zugehörige Tausch-ID). Das Buchungsprotokoll ist ausschließlich für dich und den Anbieter einsehbar und dient der transparenten Nachvollziehbarkeit deines Guthabens.
+  - **Tier-Bonus-Status:** Welche Tier-Meilensteine dir bereits einen Knopf gutgeschrieben haben, wird gespeichert — zur Vermeidung von Doppelgutschriften.
+
+  Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.
+
 ### 2.6 Nachrichten / Chat
 
-Macobu bietet einen privaten 1:1-Chat zwischen Nutzern, die eine Tauschanfrage miteinander gestartet haben. Die Chatfunktion wird **12 Stunden nach Kontoerstellung** freigeschaltet (Schutzmaßnahme gegen Missbrauch).
+Macobu bietet einen privaten 1:1-Chat in zwei Varianten: (a) als **Tausch-Chat** zwischen Nutzern mit einer gemeinsamen Tauschanfrage und (b) als **Direkt-Nachricht** zwischen Nutzern, die sich gegenseitig folgen. Die Chatfunktion wird **12 Stunden nach Kontoerstellung** freigeschaltet (Schutzmaßnahme gegen Missbrauch).
 
 **Welche Daten gespeichert werden:**
 - **Nachrichteninhalte:** Der Wortlaut deiner gesendeten Nachrichten (max. 2.000 Zeichen pro Nachricht), verknüpft mit deiner Nutzer-ID, dem Zeitstempel und der zugehörigen Tausch-ID.
@@ -133,9 +140,20 @@ Wenn du in der Wunschliste auf „Lokal in deiner Nähe" tippst, fragt die App e
 - **Weitergabe:** Deine Koordinaten werden einmalig an die Google Places API (über unseren serverseitigen Proxy) übermittelt, um Läden in deiner Nähe zu suchen. Die Google Places API erhält keine Nutzer-ID oder andere personenbezogene Daten.
 - **Ablehnung:** Du kannst die Berechtigung verweigern oder jederzeit in den Systemeinstellungen widerrufen. Die übrigen App-Funktionen sind davon nicht betroffen.
 
-### 2.10 Push-Benachrichtigungen (geplant)
+### 2.10 Push-Benachrichtigungen
 
-Sobald Push-Benachrichtigungen aktiviert sind, wird ein Gerätetoken (FCM-Token) gespeichert, um dir Benachrichtigungen über Tauschaktivitäten zu senden (z.B. Tausch bestätigt, Paket versendet). Die Speicherung erfolgt nur mit deiner ausdrücklichen Einwilligung. Du kannst deine Einwilligung jederzeit widerrufen, indem du Push-Benachrichtigungen in den Geräteeinstellungen deaktivierst oder dich aus der App abmeldest. Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO.
+Macobu nutzt Firebase Cloud Messaging (FCM) für Push-Benachrichtigungen. Mit deiner ausdrücklichen Einwilligung wird ein Gerätetoken (FCM-Token) gespeichert, um dir Benachrichtigungen über Tauschaktivitäten zuzustellen (z.B. neue Tauschanfrage, Tausch bestätigt, Paket versendet). Du kannst deine Einwilligung jederzeit widerrufen, indem du Push-Benachrichtigungen in den Geräteeinstellungen deaktivierst oder dich aus der App abmeldest. Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO.
+
+### 2.11 Moderations- und Sanktionsdaten
+
+Zur Sicherheit der Plattform und zur Erfüllung unserer Pflichten nach dem Digital Services Act (DSA) werden folgende Moderationsdaten verarbeitet:
+
+- **Meldungen:** Wenn ein Nutzer eine Nachricht oder einen Inhalt meldet, wird ein Meldungsdatensatz erstellt (Meldungstyp, gemeldeter Inhalt, meldende Nutzer-ID, Begründungskategorie, Zeitstempel, Bearbeitungsstatus). Gemeldete Inhalte werden für mindestens 30 Tage aufbewahrt — auch bei Account-Löschung des meldenden Nutzers.
+- **Sanktionen:** Verwarnungen, temporäre Chat- oder Account-Sperren und dauerhafte Sperren werden protokolliert (Nutzer-ID, Sanktionstyp, Begründung, Dauer, Zeitstempel). Diese Daten werden bis zur Löschung des betroffenen Accounts aufbewahrt.
+- **Benutzernamenänderung als Moderationsmaßnahme:** Der Anbieter kann festlegen, dass ein Nutzer beim nächsten Login einen neuen Benutzernamen wählen muss. Dieser Umstand wird in einem Flag protokolliert.
+- **Content Blocklist:** Bestimmte Inhalte (z.B. indizierte Medien) werden anhand ihrer ISBN in einer internen Sperrliste geführt. Diese Liste enthält keine personenbezogenen Daten der Nutzer.
+
+Rechtsgrundlage: Art. 6 Abs. 1 lit. c DSGVO (rechtliche Verpflichtung nach DSA) und Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an Plattformsicherheit).
 
 ---
 
@@ -198,12 +216,12 @@ Für die Funktion „Lokal in deiner Nähe" in der Wunschliste nutzen wir die Go
 - **Rechtsgrundlage:** Art. 6 Abs. 1 lit. a DSGVO (Einwilligung durch explizite Bestätigung vor der ersten Standortabfrage)
 - **Datenschutzerklärung Google:** https://policies.google.com/privacy
 
-### 3.8 Firebase Cloud Messaging (geplant)
+### 3.8 Firebase Cloud Messaging
 
-Sobald Push-Benachrichtigungen aktiviert sind, nutzen wir Firebase Cloud Messaging (FCM) für die Zustellung.
+Wir nutzen Firebase Cloud Messaging (FCM) für Push-Benachrichtigungen.
 
 - **Anbieter:** Google LLC, USA
-- **Rechtsgrundlage:** Einwilligung (Art. 6 Abs. 1 lit. a DSGVO); Standardvertragsklauseln für Drittlandübermittlung
+- **Rechtsgrundlage:** Einwilligung (Art. 6 Abs. 1 lit. a DSGVO); Standardvertragsklauseln (SCCs) für Drittlandübermittlung gemäß Art. 46 Abs. 2 lit. c DSGVO
 - **Datenschutzerklärung:** https://firebase.google.com/support/privacy
 
 ### 3.9 ISBNdb
@@ -236,6 +254,8 @@ Für die Suche nach Buchmetadaten anhand von ISBN-Nummern nutzen wir ISBNdb. Anf
 | Follow-Beziehungen | Bis zur Löschung des Accounts |
 | Push-Token (FCM) | Bis zur Abmeldung oder Löschung des Accounts |
 | Einwilligungs-Zeitstempel | Bis zur Löschung des Accounts |
+| Knopftausch-Buchungsprotokoll (credit_transactions) | Bis zur Löschung des Accounts |
+| Moderations- und Sanktionsdaten | Bis zur Löschung des betroffenen Accounts; gemeldete Inhalte mindestens 30 Tage nach Meldung |
 
 ---
 
